@@ -46,7 +46,8 @@ No, the Garbage Collector cannot directly reclaim unmanaged objects. It only man
 
 ### 14. [Difference between Stack vs Heap ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/8761588929ca9a16c9dac65c54cd768357731743/Interview-Questions/Difference%20between%20Stack%20vs%20Heap.md)
 
-### 3) [Data Type in C#](DataType/README.md) ? ###
+### 15. [Data Type in C#](DataType/README.md) ? 
+
 ### 2) Explain Type casting in C# ? ###
 [Reference](https://www.w3schools.com/cs/cs_type_casting.php#:~:text=In%20C%23%2C%20there%20are%20two,to%20a%20smaller%20size%20type)
 
