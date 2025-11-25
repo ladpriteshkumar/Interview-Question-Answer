@@ -42,7 +42,7 @@ No, the Garbage Collector cannot directly reclaim unmanaged objects. It only man
 
 ### 12. [What is the importance of CTS ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/9a04cb31ad386e68b30a9a84b4f813e7f07c14e0/Interview-Questions/What%20is%20the%20importance%20of%20CTS.md)
 
-### 13 [Explain CLS ?]
+### 13 [Explain CLS ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/ddba41177e3367203739bb42d2711d2696c2702c/Interview-Questions/Explain%20CLS.md)
 
 ### 3) [Data Type in C#](DataType/README.md) ? ###
 ### 2) Explain Type casting in C# ? ###
