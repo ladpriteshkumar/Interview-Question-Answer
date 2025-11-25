@@ -1,4 +1,4 @@
-
+### What is the importance of CTS ?
 
 The Common Type System (CTS) is one of the foundational pillars of the .NET ecosystem. Its importance lies in ensuring consistency, interoperability, and safety across all .NET languages.
 
