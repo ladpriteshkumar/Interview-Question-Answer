@@ -16,6 +16,8 @@ Its main use is to make .NET applications platform-independent during developmen
 #### Execution
 Source code (e.g., C#) → compiled into IL → JIT translates IL into machine code specific to the CPU/OS
 
+### 5. Is it possible to view IL code ?
+Yes ✅, it’s absolutely possible to view IL (Intermediate Language) code from your compiled .NET assemblies. Developers often do this to understand what the compiler generated, debug performance issues, or learn how high-level C# translates into IL.
 
 
     
