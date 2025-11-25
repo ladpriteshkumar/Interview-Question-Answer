@@ -40,7 +40,7 @@ The Garbage Collector (GC) in .NET is one of the most important features of the 
 ### 11. Can garbage collector claim unmanaged objects ?
 No, the Garbage Collector cannot directly reclaim unmanaged objects. It only manages managed objects that live on the CLR-managed heap. Unmanaged resources (like file handles, database connections, sockets, or memory allocated outside the CLR) are invisible to the GC.
 
-
+### 12. What is the importance of CTS ?
 
 ### 3) [Data Type in C#](DataType/README.md) ? ###
 ### 2) Explain Type casting in C# ? ###
