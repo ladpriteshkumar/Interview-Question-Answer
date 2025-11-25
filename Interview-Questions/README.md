@@ -27,7 +27,13 @@ Yes
 ### 8. What is CLR ( Common Language Runtime) ?
 The Common Language Runtime (CLR) is the execution engine of .NET. It runs your compiled code (IL – Intermediate Language), manages memory, enforces security, and provides essential services like garbage collection, exception handling, and cross-language interoperability
 
-    
+### 9. What is managed and unmanaged code ?   
+🧩 Managed Code
+- Definition: Code that runs under the supervision of the Common Language Runtime (CLR) in .NET.
+
+⚙️ Unmanaged Code
+- Definition: Code that runs directly on the operating system without CLR supervision.
+
 ### 3) [Data Type in C#](DataType/README.md) ? ###
 ### 2) Explain Type casting in C# ? ###
 [Reference](https://www.w3schools.com/cs/cs_type_casting.php#:~:text=In%20C%23%2C%20there%20are%20two,to%20a%20smaller%20size%20type)
