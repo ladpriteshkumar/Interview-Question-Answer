@@ -67,3 +67,5 @@ Unboxing is the process of converting Reference type ino a value type.
 
 ### 22. [Difference Between Ref and Out Parameter](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/6e3c5e1fc36cba86a0afe31d6a929daab219dd5d/Interview-Questions/Difference%20Between%20Ref%20and%20Out%20Parameter.md)
 
+### 23. [Delegates in C#](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/tree/b81ef7dfc048f9d326747a566c64bd7b8da76259/Interview-Questions)
+
