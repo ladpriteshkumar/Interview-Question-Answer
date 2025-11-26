@@ -59,3 +59,5 @@ Unboxing is the process of converting Reference type ino a value type.
 
 ### 18. [Array and ArrayList](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/c2debea049fa8121cd80334b69e746cd860b658e/Interview-Questions/Array%20and%20ArrayList.md)
 
+### 19. [What are generic collections ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/1cafed76b9e151e79e0efb686b1145824946a523/Interview-Questions/generic%20collections.md)
+
