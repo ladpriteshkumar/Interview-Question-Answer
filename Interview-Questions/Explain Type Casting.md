@@ -71,6 +71,19 @@ if (obj is int)
 
 
 
+### What can happen during explicit casting ?
+
+##### Summary of Explicit Casting Outcomes
+
+| Scenario                  | What Happens                                |
+|---------------------------|---------------------------------------------|
+| Correct type              | Cast succeeds                               |
+| Wrong type                | `InvalidCastException` at runtime           |
+| Numeric narrowing         | Data loss (precision/truncation)            |
+| Boxing/unboxing mismatch  | Exception if types don’t match exactly      |
+| Frequent casting          | Performance overhead                        |
+
+
 
 
 
