@@ -83,3 +83,45 @@ class Program
 ```
 
 
+### Why Abstract Classes Are Still Needed Even Though Interfaces Allow Default Implementations (C# 8+)
+
+#### 1. State vs. No State
+• 	Abstract Class → Can hold fields, constructors, and state (data).
+• 	Interface → Cannot hold instance fields or constructors. It’s still just a contract, even with default methods.
+👉 If you need to share data + behavior, abstract class is the right choice.
+
+#### 2. Access Modifiers
+• 	Abstract Class → Members can have different access levels (`public`,`protected` ,`private` ).
+• 	Interface → Members are public by default; you cannot restrict access.
+👉 Abstract classes give more control over encapsulation.
+
+#### 3. Inheritance Model
+- Abstract Class → Supports single inheritance. A class can inherit only one abstract class.
+- Interface → Supports multiple inheritance (a class can implement many interfaces).
+👉 Abstract classes are better when you want a common base hierarchy
+
+#### 4. Partial Implementation
+• 	Abstract Class → Lets you provide partial implementation and enforce some abstract members.
+• 	Interface → Default methods are optional helpers, but they don’t allow shared state or constructors.
+👉 Abstract classes are better when you want a template + enforced rules.
+
+
+
+### ✅ Interview Summary
+- Interfaces with default methods are useful for adding helper behavior across many classes.
+- Abstract classes are still essential when you need:
+  
+     Shared state (fields)
+
+     Constructors
+
+     Access modifiers
+ 
+     Base hierarchy with partial implementation
+
+
+
+
+
+
+
