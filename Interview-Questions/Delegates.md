@@ -45,6 +45,32 @@ del("Hello World!");             // calls ShowUpperCase
 Yes 👍, in C# you can create an object of a delegate because a delegate is actually a class type under the hood.
 
 
+### 🎯 Where Delegates Are Used
+
+- Event Handling
+  
+     Delegates are the backbone of events in C#.
+  
+- Callback Methods
+  
+    Delegates are used when you want to pass a method as a parameter to another method.
+
+- Multicast Delegates
+  
+    A single delegate object can hold references to multiple methods.
+
+- LINQ and Anonymous Methods
+  
+    Delegates are used under the hood with Func<> and Action<>.
+#### Example:
+```csharp
+List<int> numbers = new List<int> {1,2,3,4};
+var evens = numbers.FindAll(x => x % 2 == 0); // uses a delegate internally
+```
+
+
+
+
 
 
 
