@@ -69,3 +69,5 @@ Unboxing is the process of converting Reference type ino a value type.
 
 ### 23. [Delegates in C#](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/tree/b81ef7dfc048f9d326747a566c64bd7b8da76259/Interview-Questions)
 
+### 24. [Events](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/ff1214a6b356f40d633f9a7c4d630e7f48fe8328/Interview-Questions/events.md)
+
