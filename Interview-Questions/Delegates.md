@@ -109,5 +109,18 @@ Here:
 - ShowMessage is assigned to the delegate, and calling notifier("...") executes that method indirectly.
 
 
+# 🔑 Delegate vs Event in C#
+
+| Aspect            | Delegate                                                                 | Event                                                                 |
+|-------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Definition**    | A delegate is a type-safe function pointer that can reference methods.   | An event is a notification mechanism built on delegates.             |
+| **Declaration**   | Declared using the `delegate` keyword.                                   | Declared using the `event` keyword.                                  |
+| **Usage**         | Used to call methods directly, pass methods as parameters, or multicast. | Used to notify subscribers when something occurs (Observer pattern). |
+| **Access Control**| Can be invoked directly by any code that has access to it.               | Can only be raised (invoked) inside the declaring class. Subscribers can only add/remove handlers. |
+| **Flexibility**   | More flexible, but less safe (anyone can overwrite invocation list).     | Safer, encapsulates delegate to prevent misuse.                      |
+| **Dependency**    | Independent — can exist without events.                                  | Dependent — events cannot exist without delegates.                    |
+| **Example**       | `MyDelegate del = MethodName; del();`                                    | `publisher.MyEvent += subscriber.Handler;`                           |
+
+
 
 
