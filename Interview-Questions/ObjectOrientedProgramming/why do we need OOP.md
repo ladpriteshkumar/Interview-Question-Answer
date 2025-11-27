@@ -22,9 +22,8 @@ Object-Oriented Programming (OOP) is needed because it provides a structured way
 - The car internally decides how pressing the brake pedal slows the wheels — you don’t need to know the mechanics.
 
 #### Abstraction 🎭
-- Hiding implementation details and exposing only essential features.
+- Abstraction is principle of OOP which Hides implementation details and shows only essential features.
 - Achieved using abstract classes and interfaces in C#.
-- Hides implementation details and shows only essential features.
 - Helps developers work at a higher level of design without worrying about low-level details.
 - Example: An `IReoisitory`  interface abstracts data access logic, while implementations handle SQL Server or MongoDB specifics.
 #### Inheritance 🧬
