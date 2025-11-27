@@ -71,5 +71,5 @@ Unboxing is the process of converting Reference type ino a value type.
 
 ### 24. [Events](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/ff1214a6b356f40d633f9a7c4d630e7f48fe8328/Interview-Questions/events.md)
 
-### 25. [Whats the difference between Abstract class and interface ?]()
+### 25. [Whats the difference between Abstract class and interface ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/332a9efa170892b862f7b97bb8d18f62313863d7/Interview-Questions/Abstract%20class%20and%20interface.md)
 
