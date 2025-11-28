@@ -131,13 +131,54 @@ class Program
 
   
 #### Polymorphism 🔄
-- Same interface, different implementations.
-- Achieved via method overriding (virtual/override) and overloading.
-- Enables one interface to be used for different underlying forms (method overriding/overloading).
+- Polymorphism means “many forms”. In OOP, it allows the same interface or method to behave differently depending on the object that implements or calls it
+- In C#, polymorphism is achieved through method overriding (runtime polymorphism) and method overloading (compile‑time polymorphism).
+- It lets you write flexible and extensible code where one action can be performed in multiple ways.
 - Makes systems extensible and flexible.
 - Example: A `shape` class with a   `Draw()` method, implemented differently by `Circle` and `Tringle` .
 
+```csharp
+// Base class
+public class Shape
+{
+    public virtual void Draw()
+    {
+        Console.WriteLine("Drawing a generic shape.");
+    }
+}
 
+// Derived classes
+public class Circle : Shape
+{
+    public override void Draw()
+    {
+        Console.WriteLine("Drawing a circle.");
+    }
+}
+
+public class Rectangle : Shape
+{
+    public override void Draw()
+    {
+        Console.WriteLine("Drawing a rectangle.");
+    }
+}
+
+// Client code
+class Program
+{
+    static void Main()
+    {
+        Shape shape;
+
+        shape = new Circle();
+        shape.Draw();   // Output: Drawing a circle.
+
+        shape = new Rectangle();
+        shape.Draw();   // Output: Drawing a rectangle.
+    }
+}
+```
 
 
 # 🚗 Car Analogy for OOP Pillars
