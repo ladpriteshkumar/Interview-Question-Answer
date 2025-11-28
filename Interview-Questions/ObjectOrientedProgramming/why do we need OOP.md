@@ -131,36 +131,52 @@ class Program
 
   
 #### Polymorphism 🔄
-- Polymorphism means “many forms”. In OOP, it allows the same interface or method to behave differently depending on the object that implements or calls it
-- In C#, polymorphism is achieved through method overriding (runtime polymorphism) and method overloading (compile‑time polymorphism).
+- Polymorphism means “many forms”, Polymorphism is the ability of a method or interface to take multiple forms.
+- In C#, polymorphism is achieved through method overriding (runtime polymorphism), where derived classes provide their own implementation of a base class method.
+- and method overloading (compile‑time polymorphism), where the same method name behaves differently based on parameters
 - It lets you write flexible and extensible code where one action can be performed in multiple ways.
 - Makes systems extensible and flexible.
 - Example: A `shape` class with a   `Draw()` method, implemented differently by `Circle` and `Tringle` .
 
 ```csharp
 // Base class
-public class Shape
+public class Vehicle
 {
-    public virtual void Draw()
+    // Method Overloading (Compile-time Polymorphism)
+    public void Start()
     {
-        Console.WriteLine("Drawing a generic shape.");
+        Console.WriteLine("Vehicle started.");
+    }
+
+    public void Start(string mode)
+    {
+        Console.WriteLine($"Vehicle started using {mode} mode.");
+    }
+
+    // Virtual method for Overriding (Runtime Polymorphism)
+    public virtual void Drive()
+    {
+        Console.WriteLine("Driving a generic vehicle.");
     }
 }
 
-// Derived classes
-public class Circle : Shape
+// Derived class Car
+public class Car : Vehicle
 {
-    public override void Draw()
+    // Overriding the Drive method
+    public override void Drive()
     {
-        Console.WriteLine("Drawing a circle.");
+        Console.WriteLine("Driving a car with 4 wheels.");
     }
 }
 
-public class Rectangle : Shape
+// Derived class Bike
+public class Bike : Vehicle
 {
-    public override void Draw()
+    // Overriding the Drive method
+    public override void Drive()
     {
-        Console.WriteLine("Drawing a rectangle.");
+        Console.WriteLine("Driving a bike with 2 wheels.");
     }
 }
 
@@ -169,16 +185,29 @@ class Program
 {
     static void Main()
     {
-        Shape shape;
+        // Demonstrating Overloading
+        Vehicle v = new Vehicle();
+        v.Start();                  // Calls Start() with no parameters
+        v.Start("Eco");             // Calls overloaded Start(string mode)
 
-        shape = new Circle();
-        shape.Draw();   // Output: Drawing a circle.
+        // Demonstrating Overriding
+        Vehicle car = new Car();
+        car.Drive();                // Calls Car's overridden Drive()
 
-        shape = new Rectangle();
-        shape.Draw();   // Output: Drawing a rectangle.
+        Vehicle bike = new Bike();
+        bike.Drive();               // Calls Bike's overridden Drive()
     }
 }
 ```
+
+### 🔑 Types of Polymorphism in C#
+**1. 	Compile‑time Polymorphism (Static Binding)**
+- Achieved using method overloading or operator overloading.
+- Example: Multiple  methods with different parameter types.
+  
+**2. 	Runtime Polymorphism (Dynamic Binding)**
+- Achieved using method overriding with  and  keywords.
+- The actual method executed is determined at runtime based on the object type.
 
 
 # 🚗 Car Analogy for OOP Pillars
