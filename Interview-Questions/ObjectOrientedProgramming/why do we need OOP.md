@@ -77,12 +77,59 @@ class Program
     }
 }  
 ```
+
 #### Inheritance 🧬
-- Allows one class to derive from another, reusing code and extending functionality.
-- Example: class Manager : Employee { }
+- Inheritance is an OOP principle that allows one class (child/derived class) to reuse and extend the properties and behaviors of another class (parent/base class).
 - Promotes code reuse by allowing classes to derive from existing ones.
-- Reduces redundancy and improves maintainability.
+- It promotes code reuse.
+- In C#, inheritance is implemented using the `:` symbol.
 - Example: `Employee`  base class `Manager` →  and `Developer`  subclasses.
+```csharp
+// Base class
+public class Employee
+{
+    public string Name { get; set; }
+    public void Work()
+    {
+        Console.WriteLine($"{Name} is working.");
+    }
+}
+
+// Derived class
+public class Manager : Employee
+{
+    public void ConductMeeting()
+    {
+        Console.WriteLine($"{Name} is conducting a meeting.");
+    }
+}
+
+// Derived class
+public class Developer : Employee
+{
+    public void WriteCode()
+    {
+        Console.WriteLine($"{Name} is writing code.");
+    }
+}
+
+// Client code
+class Program
+{
+    static void Main()
+    {
+        Manager mgr = new Manager { Name = "Alice" };
+        mgr.Work();             // Inherited from Employee
+        mgr.ConductMeeting();   // Manager-specific
+
+        Developer dev = new Developer { Name = "Bob" };
+        dev.Work();             // Inherited from Employee
+        dev.WriteCode();        // Developer-specific
+    }
+}
+```
+
+  
 #### Polymorphism 🔄
 - Same interface, different implementations.
 - Achieved via method overriding (virtual/override) and overloading.
