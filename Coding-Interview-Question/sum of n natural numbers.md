@@ -13,3 +13,18 @@ static int SumofNaturialNumbers(int n) {
 
 Console.WriteLine(SumofNaturialNumbers(5)); //output 15
 ```
+
+
+### Sum of squares of first n natural numbers
+```csharp
+
+static int SumofsquaresNaturialNumbers(int n) {
+    var result = 0;
+    for (int i = 1; i <= n; i++) {
+        result += (i*i);
+    }
+    return result;       
+}
+
+Console.WriteLine(SumofsquaresNaturialNumbers(5));//output 55
+```
