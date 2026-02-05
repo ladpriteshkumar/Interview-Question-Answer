@@ -4,9 +4,8 @@ C# is a programming language, while .NET is a software development framework/pla
 
 
 ### What is C#?
-- Definition: C# (pronounced “C-sharp”) is a modern, object-oriented programming language created by Microsoft.
+- Definition: C# (pronounced “C-sharp”) is a strongly typed, object-oriented programming language.
 - Purpose: It’s used to write code that runs on the .NET platform.
-- Features: Strongly typed, component-oriented, supports modern programming paradigms (OOP, LINQ, async/await).
 - Usage Examples: Writing business logic, algorithms, desktop apps, web apps, and even game development (Unity uses C#).
 
 ### What is .NET?
