@@ -6,6 +6,16 @@ https://www.questpond.com/c-interview-questions-and-answers/cid69
 ### 2. .NET Framework vs .NET Core vs .NET 5.0 (Difference) ?
 .NET Framework is Windows‑only and legacy, .NET Core is cross‑platform and high‑performance, and .NET 5+ is the unified, modern future of .NET
 
+| Feature / Aspect      | .NET Framework        | .NET Core                 | .NET 5+ (5, 6, 7, 8…)            |
+|-----------------------|------------------------|----------------------------|----------------------------------|
+| Release Year          | 2002                   | 2016                       | 2020+                            |
+| Platform Support      | Windows only           | Cross‑platform             | Cross‑platform                   |
+| Open Source           | Partially              | Fully open source          | Fully open source                |
+| Performance           | Moderate               | High                       | Highest                          |
+| App Models            | WebForms, WPF, WinForms, ASP.NET MVC, WCF | ASP.NET Core, Console, Microservices | ASP.NET Core, MAUI, Blazor, Cloud‑native |
+| Future Development    | Maintenance only       | Ended at .NET Core 3.1     | Actively developed (future of .NET) |
+| Use Case              | Legacy enterprise apps | Modern, cloud, microservices | All new development, unified platform |
+
 ### 3. What is IL ( Intermediate Language)  ?
 Intermediate Language (IL), also called CIL (Common Intermediate Language) or MSIL (Microsoft Intermediate Language), is the platform-independent bytecode that all .NET languages (like C#, VB.NET, F#) compile into. At runtime, the Common Language Runtime (CLR) translates IL into native machine code using the Just-In-Time (JIT) compiler
 
