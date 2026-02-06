@@ -5,6 +5,7 @@ Object-Oriented Programming (OOP) is a structured way to design and build softwa
 
 ### ✅ Key Reasons We Need OOP
 #### Encapsulation 🛡️
+- “Encapsulation is the OOP principle of hiding an object’s internal data and exposing only controlled access through public methods or properties. It protects the internal state, improves security, and ensures that the object can only be modified in a controlled and predictable way.
 - Encapsulation is the principle of wrapping data (fields) and behavior (methods) together inside a single unit (class) and restricting direct access to the internal state.
 - It ensures that an object’s internal representation is hidden from the outside world.
 - Controls access to data using access modifiers (public, private, protected)
