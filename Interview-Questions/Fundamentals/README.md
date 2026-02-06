@@ -1,4 +1,4 @@
-### 2. .NET Framework vs .NET Core vs .NET 5.0 (Difference) ?
+### 1. .NET Framework vs .NET Core vs .NET 5.0 (Difference) ?
 .NET Framework is Windows‑only and legacy, .NET Core is cross‑platform and high‑performance, and .NET 5+ is the unified, modern future of .NET
 
 | Feature / Aspect      | .NET Framework        | .NET Core                 | .NET 5+ (5, 6, 7, 8…)            |
