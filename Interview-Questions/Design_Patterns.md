@@ -1,5 +1,7 @@
 # Design Patterns
-A design patterns is general, reusable solution to a commonly occurring software problem.  A design patterns is not a finished specification that can be transformed directly into code. instead it is template for solving a particular problem.  Thinking in terms of design patterns allows you to formulate a high-level solutation that is independent of the implementation details.  using established design patterns lead to a solution that is easily understandable, testeble, and maintainable.
+A design patterns is general, reusable solution to a commonly occurring software problem. 
+
+A design patterns is not a finished specification that can be transformed directly into code. instead it is template for solving a particular problem.  Thinking in terms of design patterns allows you to formulate a high-level solutation that is independent of the implementation details.  using established design patterns lead to a solution that is easily understandable, testeble, and maintainable.
 
 
 # What is S.O.L.I.D ?
