@@ -81,7 +81,30 @@ The stack (memory) is different from the stack (data structure), but both follow
 
 
 
+---
 
+4. C# Example Showing All
+
+```csharp
+void Test()
+{
+    // STACK (data structure)
+    Stack<int> s = new Stack<int>();
+    s.Push(10);
+    s.Push(20);
+
+    // QUEUE (data structure)
+    Queue<int> q = new Queue<int>();
+    q.Enqueue(10);
+    q.Enqueue(20);
+
+    // STACK MEMORY
+    int x = 5; // stored on stack
+
+    // HEAP MEMORY
+    Person p = new Person(); // object on heap, reference on stack
+}
+```
 
 
 
