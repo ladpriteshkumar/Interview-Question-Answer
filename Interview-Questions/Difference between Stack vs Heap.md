@@ -1,4 +1,18 @@
 
+**Stack vs Queue** and **Stack vs Heap** — two very different comparisons that often confuse candidates.
+
+
+
+
+Stack (Data Structure)
+A stack is a linear data structure that follows the LIFO (Last In, First Out) principle.
+
+
+
+
+---
+
+## Stack vs Heap
 
 The stack is used for static memory allocation (local variables, function calls) and is fast but limited, while the heap is used for dynamic memory allocation (objects, data structures) and is flexible but slower
 
