@@ -47,12 +47,16 @@ A stack is a linear data structure that follows the LIFO (Last In, First Out) pr
 
 | Aspect            | Stack                               | Heap                                |
 |-------------------|-------------------------------------|-------------------------------------|
+| **Memory Type**   | Static Memory                       | Dynamic Memory                      |
 | **Allocation**    | Automatic (handled by compiler/runtime) | Manual (programmer or garbage collector) |
 | **Speed**         | Faster                              | Slower                              |
 | **Size**          | Limited, fixed                      | Large, flexible                     |
 | **Lifetime**      | Tied to function scope              | Until freed or garbage collected    |
 | **Fragmentation** | Never fragmented                    | Can become fragmented               |
-| **Access**        | Local variables only                | Global access possible              |
+| **Stores**        | Value types, method calls, local variables | Reference types, objects, large data |
+
+
+
 
 
 
