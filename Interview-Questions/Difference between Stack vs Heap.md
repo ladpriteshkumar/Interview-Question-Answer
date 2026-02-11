@@ -60,6 +60,7 @@ A Queue is a linear data structure that follows the FIFO (Fisrt In, First Out) p
 | **Lifetime**      | Tied to function scope              | Until freed or garbage collected    |
 | **Fragmentation** | Never fragmented                    | Can become fragmented               |
 | **Stores**        | Value types, method calls, local variables | Reference types, objects, large data |
+| **Manage By**| compiler | Garbage collector |
 
 
 
