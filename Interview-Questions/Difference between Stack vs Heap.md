@@ -14,7 +14,8 @@ A stack is a linear data structure that follows the LIFO (Last In, First Out) pr
 
 ## Stack vs Heap
 
-The stack is used for static memory allocation (local variables, function calls) and is fast but limited, while the heap is used for dynamic memory allocation (objects, data structures) and is flexible but slower
+- The stack is used for static memory allocation (local variables, function calls) and is fast but limited, 
+- while the heap is used for dynamic memory allocation (objects, data structures) and is flexible but slower
 
 
 ### 🧠 Stack Memory
