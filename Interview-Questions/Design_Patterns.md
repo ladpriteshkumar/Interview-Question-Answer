@@ -40,3 +40,12 @@ Singleton  | Facade | Mediator
 --  | -- | Strategy
 --  | -- | Template Method
 --  | -- | Visitor
+
+
+---
+
+# Dependency injection (DI)
+
+Dependency injection (DI) is a software design pattern and programming technique where an object receives its required dependencies (other objects it depends on) from an external source rather than creating them itself. 
+
+It promotes loose coupling, making code more modular, testable, and maintainable by separating object construction from usage. 
