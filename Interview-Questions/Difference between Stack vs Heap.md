@@ -4,8 +4,14 @@
 
 
 
-Stack (Data Structure)
+### Stack (Data Structure)
+
 A stack is a linear data structure that follows the LIFO (Last In, First Out) principle.
+
+### Queue (Data Structure)
+
+A Queue is a linear data structure that follows the FIFO (Fisrt In, First Out) principle:
+
 
 
 
@@ -59,6 +65,19 @@ A stack is a linear data structure that follows the LIFO (Last In, First Out) pr
 
 
 
+
+# **Stack vs Queue vs Heap**
+
+## **1. What They Are (High‑Level View)**
+
+| Concept | Category | Purpose |
+|--------|----------|---------|
+| **Stack** | Data structure **and** memory region | LIFO operations, function call management |
+| **Queue** | Data structure | FIFO operations, task/order management |
+| **Heap** | Memory region | Dynamic object allocation |
+
+Stacks and queues are **data structures**, while the heap is **a memory area**.  
+The stack (memory) is different from the stack (data structure), but both follow the LIFO idea.
 
 
 
