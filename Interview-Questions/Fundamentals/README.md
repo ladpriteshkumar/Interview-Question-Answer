@@ -14,7 +14,7 @@
 | Future Development    | Maintenance only       | Ended at .NET Core 3.1     | Actively developed (future of .NET) |
 | Use Case              | Legacy enterprise apps | Modern, cloud, microservices | All new development, unified platform |
 
-[!IMAGE]()
+![IMAGE](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/dotnetframework-vs-dotnet.jpg)
 
 ### 3. What is IL ( Intermediate Language)  ?
 Intermediate Language (IL), also called  Common Intermediate Language(CIL) or Microsoft Intermediate Language (MSIL), all .NET languages (like C#, VB.NET, F#) compile into IL at runtime, the Common Language Runtime (CLR) translates IL into native machine code using the Just-In-Time (JIT) compiler
