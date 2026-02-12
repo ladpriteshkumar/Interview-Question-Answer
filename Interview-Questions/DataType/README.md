@@ -40,15 +40,6 @@
 | **Default Value**   | Depends on type (e.g., `0` for int)  | `null`                              |
 
 
-
-
-# 
-# DataType in C#
-
-[Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types)
-
-
-
 ---
 # Record Types in C#
 1. Reference Types (Record Class)
@@ -93,13 +84,11 @@ var p3 = p1 with { LastName = "Johnson" };
 var (first, last) = p1;
 
 
-
 👉 In short:
 - Record class = reference type with value equality.
 - Record struct = value type with value equality.
 Both are designed to make working with immutable, data-focused objects much easier.
 
-Would you like me to also show you when to choose record class vs record struct in real-world scenarios (like performance trade-offs and memory usage)?
 
 
 
