@@ -96,7 +96,13 @@ The Garbage Collector (GC) in .NET is one of the most important features of the 
 ### 11. Can garbage collector claim unmanaged objects ?
 No, the Garbage Collector cannot directly reclaim unmanaged objects. It only manages managed objects that live on the CLR-managed heap. Unmanaged resources (like file handles, database connections, sockets, or memory allocated outside the CLR) are invisible to the GC.
 
-### 12. [What is the importance of CTS ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/9a04cb31ad386e68b30a9a84b4f813e7f07c14e0/Interview-Questions/What%20is%20the%20importance%20of%20CTS.md)
+### 12. [What is the importance of CTS ?]
+- CTS is the standard that defines how all data types behave in .NET so that all languages can work together.
+- CTS Exist Because .NET supports multiple languages (C#, F#, VB.NET), CTS ensures they can interoperate without type conflicts.
 
-### 13. [Explain CLS ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/ddba41177e3367203739bb42d2711d2696c2702c/Interview-Questions/Explain%20CLS.md)
+
+### 13. [Explain CLS ?]
+- CLS is a subset of CTS—a set of rules that languages must follow to be cross‑language compatible.
+- Not all languages support all CTS features. CLS defines the minimum features that every .NET language must support.
+
 
