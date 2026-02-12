@@ -25,7 +25,7 @@ The Just-In-Time (JIT) compiler in .NET converts Intermediate Language (IL) code
 Its main use is to make .NET applications platform-independent during development while still achieving high performance when executed.
 
 #### Execution
-Source code (e.g., C#) → compiled into IL → JIT translates IL into machine code specific to the CPU/OS
+![IMAGE](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/dotnetExecution.png)
 
 ### 5. Is it possible to view IL code ?
 Yes ✅, it’s absolutely possible to view IL (Intermediate Language) code from your compiled .NET assemblies. Developers often do this to understand what the compiler generated, debug performance issues, or learn how high-level C# translates into IL.
