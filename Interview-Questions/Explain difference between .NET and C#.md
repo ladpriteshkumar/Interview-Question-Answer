@@ -1,6 +1,7 @@
 
 ### Explain difference between .NET and C# ?
- C# (pronounced “C-sharp”) is a strongly typed, object-oriented programming language, while .NET is a software development framework/platform which provides the  libraries, runtime and tools to run and build applications.
+ - C# (pronounced “C-sharp”) is a strongly typed, object-oriented programming language, 
+ - while .NET is a software development framework/platform which provides the  libraries, runtime and tools to run and build applications.
 
 ### What is C#?
 - Definition: C# (pronounced “C-sharp”) is a strongly typed, object-oriented programming language.
