@@ -7,7 +7,7 @@
     **1 Value Type**    
     **2 Reference Type**
 
-![image](CsharpDataType.png)
+![image](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/DataType/DataTypeinCsharp.png)
           
 ## 1 Value Type: 
 * A value type variable stores actual values.     
@@ -49,50 +49,7 @@
 
 
 
-# Built in Value Type
-`bool`
-
-`byte`
-`sbyte` 
-
-`char` 
-
-`decimal` 
-`double` 
-`float` 
-`int` 
-`uint` 
-
-`nint` 
-`nuint` 
-
-`short` 
-`ushort` 
-
-`long` 
-`ulong` 
-
-
-
-# Built in Reference Type
-`object`
-`string`
-`dynamic`
-
-
-# User Define Value Type
-`struct`
-`enum`
-
-
-# User Define Reference Type
-`class`
-`interface`
-`delegate`
-`record`
-
-
-# =============================================================
+---
 # Record Types in C#
 1. Reference Types (Record Class)
 - Declared with record class (or just record by default).
