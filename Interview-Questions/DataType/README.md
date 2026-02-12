@@ -1,5 +1,5 @@
 # 1) What are Value types & Reference types?
-# 2) What is Data Type? (Explain Data type in C#)
+# 2) What is [Data Type](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types)? (Explain Data type in C#)
 
 - Data Type refers to the type of data that can be stored in a variable.
 - C# is rich in data type which is mainly divided into two categories.
