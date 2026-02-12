@@ -8,7 +8,7 @@ https://www.fullstack.cafe/
 ## [.NET Fundanentials Question Answer](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/README.md)
 
 
-### 1. [Difference between Stack vs Heap ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/8761588929ca9a16c9dac65c54cd768357731743/Interview-Questions/Difference%20between%20Stack%20vs%20Heap.md)
+### 1. [Difference between Stack vs Heap ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Difference%20between%20Stack%20vs%20Heap.md)
 
 ### 2. [Data Type in C#](DataType/README.md) ? 
 
