@@ -50,3 +50,10 @@ Entity Framework
 
 Behaviour Interview Questions (Answer in STAR format)
 
+
+Tuple in C#
+
+HashSet in C#
+
+ConfigurationSection in C#
+
