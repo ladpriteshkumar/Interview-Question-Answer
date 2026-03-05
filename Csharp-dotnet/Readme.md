@@ -33,3 +33,20 @@ https://www.fullstack.cafe/
 
 ### 11. [Whats the difference between Abstract class and interface ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/332a9efa170892b862f7b97bb8d18f62313863d7/Interview-Questions/Abstract%20class%20and%20interface.md)
 
+
+---
+Authentication and Authorization 
+(EntraId , LDAP)
+
+Dependance Injection
+
+What do you do if your services receive higher calls,
+
+how do you improve api response time, if it is running slow. how do you imporve the perfomance of an api
+
+Dapper
+
+Entity Framework
+
+Behaviour Interview Questions (Answer in STAR format)
+
