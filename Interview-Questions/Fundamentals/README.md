@@ -94,6 +94,7 @@ Yes ✅, it’s absolutely possible to view IL (Intermediate Language) code from
 The Common Language Runtime (CLR) is the execution engine of .NET. It runs your compiled code (IL – Intermediate Language), manages memory, enforces security, and provides essential services like garbage collection, exception handling, and cross-language interoperability
 
 ___
+### Could you walk me through how garbage collection works in .NET?
 ### Explain the role of the garbage collector in .NET and how it manages memory.
 ### 10. Explain the importance of Garbage collector ?
 The Garbage Collector (GC) in .NET is one of the most important features of the Common Language Runtime (CLR). It automatically manages memory, freeing developers from the burden of manual allocation and deallocation.
