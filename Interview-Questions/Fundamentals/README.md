@@ -111,4 +111,6 @@ ___
 - CLS is a subset of CTS—a set of rules that languages must follow to be cross‑language compatible.
 - Not all languages support all CTS features. CLS defines the minimum features that every .NET language must support.
 
+![IMAGE](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/DotNetCLR.PNG)
+
 
