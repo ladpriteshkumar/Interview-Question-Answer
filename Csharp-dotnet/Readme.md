@@ -38,8 +38,6 @@ https://www.fullstack.cafe/
 Authentication and Authorization 
 (EntraId , LDAP)
 
-Dependance Injection
-
 What do you do if your services receive higher calls,
 
 how do you improve api response time, if it is running slow. how do you imporve the perfomance of an api
@@ -64,3 +62,5 @@ Return type in Action Method (MVC)
 ABC of WCF application
 
 Difference Web API Vs Rest API
+
+Data Structure and Algorithem ([Two poiner](https://codesignal.com/learn/courses/master-dictionaries-two-pointers-and-more-algorithms-in-csharp/lessons/applying-the-two-pointer-technique-in-csharp))
