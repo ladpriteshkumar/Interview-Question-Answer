@@ -8,8 +8,7 @@ RESTful APIs are characterized by:
 
 - **Stateless Communication:**
   Communication between client and server should be stateless, meaning that each request from a client should contain all the information necessary for the server to understand and process the request.
-  Each request from a client to a server must contain all the information the server needs to fulfill the request. The server does not store any state about the client between requests.
-  
+ 
 - **Use HTTP Methods Correctly:**   
   Use standard HTTP methods to perform CRUD operations:   
     GET: Retrieve data.   
@@ -22,6 +21,9 @@ RESTful APIs are characterized by:
 
 - **Uniform Interface:**
    The API should have a consistent and uniform interface that makes it easy for clients to understand and interact with. This includes using standard conventions for naming resources and endpoints.
+
+- **Response Formats:**
+  Use standard formats such as JSON or XML for responses. JSON is typically preferred due to its lightweight nature and ease of use.
   
 - **Cacheability:** Responses can be cached
 - **Layered System:** Architecture can have multiple layers
