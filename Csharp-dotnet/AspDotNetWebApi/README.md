@@ -1,3 +1,5 @@
+## What is REST API ?
+REST API (Representational State Transfer Application Programming Interface) is a type of web service that adheres to the principles of REST architecture. REST is a set of guidelines for designing networked applications and relies on HTTP for communication between clients and servers.
 
 ## What Makes an API RESTful?
 RESTful APIs are characterized by:
