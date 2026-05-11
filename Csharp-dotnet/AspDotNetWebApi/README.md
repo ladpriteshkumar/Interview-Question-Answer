@@ -24,7 +24,17 @@ RESTful APIs are characterized by:
 
 - **Response Formats:**
   Use standard formats such as JSON or XML for responses. JSON is typically preferred due to its lightweight nature and ease of use.
-  
+
+- **Versioning:**
+  Include versioning in the API to handle future changes and ensure backward compatibility. This can be done via URL path (e.g., /api/v1/resource) or headers.
+
+- **Error Handling:**
+  Provide meaningful error messages and use standard HTTP status codes to indicate the outcome of API requests. For example, return 404 for not found, 400 for bad request, and 500 for internal server errors.
+
+- **Security:**
+  Implement security measures such as authentication and authorization to protect the API. Common practices include using API keys, OAuth tokens, or JWT (JSON Web Tokens).
+
 - **Cacheability:** Responses can be cached
+
 - **Layered System:** Architecture can have multiple layers
-- **Code on Demand:** Optional execution of client-side code
+
