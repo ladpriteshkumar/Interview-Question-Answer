@@ -7,7 +7,7 @@ https://www.questpond.com/c-interview-questions-and-answers/cid69
 https://www.fullstack.cafe/
 
 
-## [.NET Fundanentials Question Answer](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/README.md)
+## [.NET Fundanentials Question Answer](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/README.md)
 
 
 ### 1. [Difference between Stack vs Heap ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Difference%20between%20Stack%20vs%20Heap.md)
