@@ -3,7 +3,7 @@ REST API (Representational State Transfer Application Programming Interface) is 
 
 [Ref-1](https://medium.com/asp-dotnet/basic-10-principles-of-rest-api-development-using-net-54ea4eb2ccdb)
 
-## What Makes an API RESTful?
+## What Makes an API RESTful?  or Rest Principle
 RESTful APIs are characterized by:
 
 - **Stateless Communication:**
