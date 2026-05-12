@@ -37,12 +37,19 @@ https://www.fullstack.cafe/
 
 
 ---
-Authentication and Authorization 
-(EntraId , LDAP)
+MCP Server (AI)
+
+How JWT Works
+
+What is tree shacking
+
+Authentication and Authorization (EntraId , LDAP)
 
 What do you do if your services receive higher calls,
 
 how do you improve api response time, if it is running slow. how do you imporve the perfomance of an api
+
+ORM(Object Relation Mapping)
 
 Dapper
 
