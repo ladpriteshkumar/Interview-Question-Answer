@@ -54,10 +54,24 @@ Throttling slows down user traffic, regulating the rate of incoming requests ove
 ## 5. Use API Gateway
 Deploy your endpoints behind an API gateway.
 Provides centralized control of authentication, authorization, caching, etc.
+
+Use an API gateway to centralize security.
+**Gateways provide:**   
+- Authentication
+- Authorization
+- Rate limiting
+- Logging
+- IP whitelisting
+- Threat detection
+
+[Ref-1](https://www.youtube.com/watch?v=dkgxvnk8cWw)
+
 Examples: AWS API Gateway, Kong, or Apache APISIX.
 ## 6. Enable CORS (Cross-Origin Resource Sharing) Rules
-Restrict which domains are allowed to send requests to your API.
-Prevent unauthorized or malicious cross-origin requests.
+- Control which domains are allowed to send requests to your API.
+- Prevent unauthorized or malicious cross-origin requests.
+
+
 ## 7. Implement Error Handling Securely
 Avoid exposing sensitive error messages (e.g., stack traces or SQL queries).
 Return generic error codes/messages that do not reveal internal implementation details.
