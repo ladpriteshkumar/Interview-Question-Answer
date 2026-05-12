@@ -11,3 +11,28 @@ Different clients may need different representations of the same resource:
 - A data pipeline may want CSV   
 
 Content negotiation ensures flexibility without changing the API endpoint.
+
+## Types of Content Negotiation
+
+### 1. Header-Based (Most Common)   
+Uses Accept and Content-Type headers.
+```
+Accept: application/json
+```
+
+### 2. URL-Based (Not pure REST, but widely used)
+```
+/users/123.json
+/users/123.xml
+```
+
+### 3. Query Parameter-Based
+```
+/users/123?format=json
+```
+
+## Benefits of Content Negotiation   
+- Same endpoint, multiple formats   
+- Better client compatibility   
+- Cleaner API design   
+- Easier versioning and evolution
