@@ -21,7 +21,9 @@ https://www.fullstack.cafe/
 
 ### [What is Generics](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Generics.md)
 
-### 5. [What are generic collections ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/1cafed76b9e151e79e0efb686b1145824946a523/Interview-Questions/generic%20collections.md)
+###  [What are generic collections ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/1cafed76b9e151e79e0efb686b1145824946a523/Interview-Questions/generic%20collections.md)
+
+### [Explain Runtime Polymorphism?] *oops*
 
 ### 6. [What are threads (Multithreading)?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/b713c300498a1e8a06466a5ba4fbdc4f62dc2364/Interview-Questions/What%20are%20threads%20(Multithreading).md)
 
