@@ -73,29 +73,39 @@ Examples: AWS API Gateway, Kong, or Apache APISIX.
 
 
 ## 7. Implement Error Handling Securely
-Avoid exposing sensitive error messages (e.g., stack traces or SQL queries).
-Return generic error codes/messages that do not reveal internal implementation details.
-## 8. Use Rate-Limiting and IP Whitelisting
-Set predefined thresholds to limit the rate of requests.
+- Avoid exposing sensitive error messages (e.g., stack traces or SQL queries).
+- Return generic error codes/messages that do not reveal internal implementation details.
+
+## 8. Use IP Whitelisting
 Set IP whitelisting for internal or private APIs.
+
 ## 9. Encrypt Data
 Encrypt sensitive data both in transit (SSL/TLS) and at rest.
 Use strong encryption algorithms (e.g., AES-256, RSA-2048) for data storage and transmission.
+
 ## 10. Secure API Keys
-Never hardcode API keys in the application or client code.
-Store keys securely using environment variables or secret managers.
+Never hardcode API keys in the application or client code.   
+Store keys securely using environment variables or secret managers.  
 Rotate API keys regularly to minimize exposure risk.
-## 11. Use JWT (JSON Web Tokens) Securely
-Use signed JWTs for secure and stateless user sessions.
-Store JWT in secure cookies or local storage depending on the use case.
-Add expiration times to tokens and refresh them appropriately.
-## 12. Implement Logging and Monitoring
+
+Never hardcode secrets.   
+*Use:*
+- Vault (HashiCorp)
+- AWS Secrets Manager
+- Azure Key Vault
+- Environment variables
+
+
+## 11. Implement Logging and Monitoring
 Log all API requests for auditing and monitoring unauthorized or suspicious activity.
-Integrate API monitoring tools like ELK Stack, Datadog, or Prometheus.
-## 13. Version Your API
+Integrate API monitoring tools like  Datadog, splunk.
+
+## 12. Version Your API
 Use versioning (e.g., /v1/resource) to discourage users from accessing deprecated or vulnerable APIs.
-## 14. Enforce Strict Content Security Policies
+
+## 13. Enforce Strict Content Security Policies
 Control what resources can interact with your API using well-defined security policies.
+
 ## 15. Patch and Update Regularly
 Keep your frameworks, libraries, and API dependencies up-to-date to address security vulnerabilities.
 
