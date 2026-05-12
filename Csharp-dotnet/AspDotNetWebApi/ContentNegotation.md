@@ -3,6 +3,8 @@ Content Negotiation is a REST mechanism that allows a client and server to agree
 
 The client tells the server what format it prefers, and the server responds in the format requested by client.
 
+Content Negotiation ensures that one resource can be represented in multiple formats, and the client and server automatically agree on the best one without changing the endpoint.
+
 ## Why Content Negotiation Exists
 Different clients may need different representations of the same resource:   
 - A browser may want HTML   
