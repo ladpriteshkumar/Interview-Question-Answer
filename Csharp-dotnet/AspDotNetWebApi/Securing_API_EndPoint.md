@@ -38,8 +38,19 @@ Always encrypt data in transit.
 - Sanitize user input
 
 ## 4. Rate Limiting and Throttling
-Limit the number of API requests a user can make within a specific time window.
-Prevent abuse and Distributed Denial-of-Service (DDoS) attacks using a rate limiter.
+Rate limiting sets a strict cap on the number of requests a user can make in a time period, usually returning an error if exceeded.    
+Throttling slows down user traffic, regulating the rate of incoming requests over time to prevent server overload.
+
+### Rate Limiting:   
+- Goal: Protects infrastructure and enforces usage quotas (e.g., max 100 requests per minute).
+- Outcome: Requests are rejected (usually 429 Too Many Requests) once the limit is hit.
+- Best for: Preventing DDoS attacks, limiting API consumption for different user tiers, and enforcing business rules.
+
+### Throttling:
+- Goal: Maintains system stability and manages performance, often smoothing out traffic spikes.
+-  Outcome: Requests are delayed, queued, or processed slower rather than immediately rejected.
+-  Best for: Managing traffic flow in real-time, reducing server load during high traffic, and providing a better experience than hard cuts.
+
 ## 5. Use API Gateway
 Deploy your endpoints behind an API gateway.
 Provides centralized control of authentication, authorization, caching, etc.
