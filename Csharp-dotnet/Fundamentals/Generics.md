@@ -1,5 +1,5 @@
 ## What is Generics ?
-Generics allow us to write flexible, reusable, and type‑safe code by using type parameters like `<T>` instead of hard‑coding data types.
+Generics allow us to write flexible, reusable, and type‑safe code that work with any datatype in a type‑safe way.
 
 ## What Are Generics? (Easy Explanation)
 Generics let you create reusable code that works with any data type while still keeping type safety.   
