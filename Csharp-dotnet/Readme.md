@@ -10,14 +10,16 @@ https://www.fullstack.cafe/
 ## [.NET Fundanentials Question Answer](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/README.md)
 
 
-### 1. [Difference between Stack vs Heap ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Difference%20between%20Stack%20vs%20Heap.md)
+### [Difference between Stack vs Heap ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Difference%20between%20Stack%20vs%20Heap.md)
 
-### 2. [Data Type in C#](DataType/README.md) ? 
+### [Data Type in C#](DataType/README.md) ? 
 
-### 3. [Explain Type casting in C# ? OR Explain casting, implicit casting and explicit casting](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/92e6583639e1c3181f583e2d77f1addbedcf57b4/Interview-Questions/Explain%20Type%20Casting.md)
+### [Explain Type casting in C# ? OR Explain casting, implicit casting and explicit casting](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/92e6583639e1c3181f583e2d77f1addbedcf57b4/Interview-Questions/Explain%20Type%20Casting.md)
 
 
-### 4. [Array and ArrayList](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/c2debea049fa8121cd80334b69e746cd860b658e/Interview-Questions/Array%20and%20ArrayList.md)
+### [Array and ArrayList](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/c2debea049fa8121cd80334b69e746cd860b658e/Interview-Questions/Array%20and%20ArrayList.md)
+
+### [What is Generics](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Generics.md)
 
 ### 5. [What are generic collections ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/1cafed76b9e151e79e0efb686b1145824946a523/Interview-Questions/generic%20collections.md)
 
