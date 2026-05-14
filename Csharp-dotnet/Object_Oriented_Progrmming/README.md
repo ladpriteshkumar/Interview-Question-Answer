@@ -23,8 +23,8 @@ Instead of writing procedural code, OOP organizes logic around objects that repr
 - The car internally decides how pressing the brake pedal slows the wheels — you don’t need to know the mechanics.
 
 #### Abstraction 🎭
-- “Abstraction is the OOP principle of exposing only the essential features of an object while hiding unnecessary implementation details. It focuses on what an object does rather than how it does it, making the system easier to use, maintain, and extend.”
-
+- “Abstraction is the OOP principle of exposing only the essential features of an object while hiding unnecessary implementation details.
+-  It focuses on what an object does rather than how it does it, making the system easier to use, maintain, and extend.”
 - **Abstraction** is the process of **hiding implementation** details and exposing only the essential features of an object.
 - Achieved using **abstract classe** and **interfaces** in C#.
 - Helps developers work at a higher level of design without worrying about low-level details.
