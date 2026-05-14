@@ -1,6 +1,7 @@
 ## Why do we need OOP ? OR What is OOP ?
 
-Object-Oriented Programming (OOP) is a structured way to design and build software that is scalable, maintainable, and reusable. Instead of writing procedural code, OOP organizes logic around objects that represent real-world entities.
+Object-Oriented Programming (OOP) is a structured way to design and build software that is scalable, maintainable, and reusable.   
+Instead of writing procedural code, OOP organizes logic around objects that represent real-world entities.
 
 
 ### ✅ Key Reasons We Need OOP
