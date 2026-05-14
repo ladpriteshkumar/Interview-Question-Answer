@@ -53,3 +53,6 @@ Now `T` can be any type:
 var intBox = new Box<int>();
 var stringBox = new Box<string>();
 ```
+
+Generic classes improve type safety by avoiding explicit type casting.
+Generic are widely used in collection classes like List<T>, Dictionary<TKey, TValue>, and Queue<T>.
