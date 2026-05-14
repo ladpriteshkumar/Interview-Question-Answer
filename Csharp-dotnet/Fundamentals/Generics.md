@@ -1,6 +1,8 @@
 ## What is Generics ?
 Generics allow us to write flexible, reusable, and type‑safe code that work with any datatype in a type‑safe way.
 
+Generics allow developers to design classes, methods, and interfaces that can work with any data type without compromising type safety.
+
 ## What Are Generics? (Easy Explanation)
 Generics let you create reusable code that works with any data type while still keeping type safety.   
 Think of generics like a template:   
