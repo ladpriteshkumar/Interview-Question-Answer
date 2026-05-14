@@ -134,8 +134,9 @@ class Program
   
 #### Polymorphism 🔄
 - Polymorphism means “many forms”, Polymorphism is the ability of a method or interface to take multiple forms.
-- In C#, polymorphism is achieved through method overriding (runtime polymorphism), where derived classes provide their own implementation of a base class method.
-- and method overloading (compile‑time polymorphism), where the same method name behaves differently based on parameters
+- In C#, polymorphism is achieved through method overriding (runtime polymorphism)  and method overloading (compile‑time polymorphism).
+- method overriding (runtime polymorphism) where derived classes provide their own implementation of a base class method.
+- method overloading (compile‑time polymorphism), where the same method name behaves differently based on parameters Type and number of parameter passed to method
 - It lets you write flexible and extensible code where one action can be performed in multiple ways.
 - Makes systems extensible and flexible.
 - Example: A `shape` class with a   `Draw()` method, implemented differently by `Circle` and `Tringle` .
