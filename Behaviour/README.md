@@ -1,4 +1,6 @@
 ## Why do you want to work with us ?
+- A career with Schwab means becoming part of a dynamic, collaborative team that’s committed to transforming the finance industry.
+- Charles Schwab’ empowered to grow in your career and experience the benefits of working in a supportive, positive environment.
 - “Charles Schwab’[company name] technology vision of scaling trust through innovation connect strongly with me.
 - The company investing in cloud platforms, automation, and AI to deliver secure, client‑focused experiences.
 - As a senior backend developer specializing in C# and .NET, I bring expertise in designing scalable services, optimizing performance, and ensuring compliance in regulated environments.
