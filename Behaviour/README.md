@@ -32,5 +32,17 @@ While my teammate’s solution saved resources, it risked overloading CPU and me
 
 
 ## Describe a time you had to learn a completely new technology or tool quickly.
+**Situation:**  
+Our team was using a third-party tool to convert emails into PDFs. While it worked for basic cases, it did not support foreign languages, which caused issues for international clients and compliance requirements.
+
+**Task:**  
+We needed to quickly migrate to a new solution that could handle multilingual content reliably. I was responsible for learning and integrating Aspose into our backend service to replace the old tool.
+
+**Action:**  
+To ramp up quickly, I combined multiple learning methods: I studied Aspose’s official documentation, built proof-of-concept apps to test features like attachments and foreign language characters, and validated outputs against the old tool. I also used online learning platforms and YouTube tutorials to accelerate my understanding of best practices and real-world use cases. Finally, I collaborated with QA to test conversions across multiple languages and added retry/error handling for robustness.
+
+**Result:**  
+Within a short time, we successfully migrated to Aspose. The new solution supported foreign languages seamlessly, improved reliability, and reduced client complaints. The transition was smooth, and the business gained confidence that our system could handle global requirements. Personally, I demonstrated my ability to learn new technologies quickly using diverse resources and deliver results under pressure.
+
 
 ## How do you handle high-stress situations or production bugs in a financial environment?
