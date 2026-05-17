@@ -1,3 +1,4 @@
+## Why do you want to work for Charles Schwab specifically?
 ## Why do you want to work with us ?
 - A career with Schwab means becoming part of a dynamic, collaborative team that’s committed to transforming the finance industry.
 - Charles Schwab’ empowered to grow in your career and experience the benefits of working in a supportive, positive environment.
@@ -14,9 +15,21 @@
 “My current project is reaching the end of its lifecycle, and while I’ve enjoyed contributing to it, I’m looking for a new challenge where I can continue to grow. I want to apply my backend C# expertise to large-scale, cloud-native systems, and Charles Schwab’s focus on modernization and secure, client‑centric technology is exactly the kind of environment I’m excited to join.”
 
 
-## Why do you want to work for Charles Schwab specifically?
+
 
 ## Tell me about a time you had a technical disagreement with a teammate or manager. How did you resolve it?
+**Situation:**     
+Our service was taking longer than expected to process large engagements, especially those with many attached documents.
+
+**Task:**     
+The business required us to reduce processing time and improve performance for these large engagements.
+
+**Action:**     
+A teammate suggested parallelizing both table row and document processing within the same service. I proposed a different approach: separating document processing into its own microservice, while keeping table row processing in the main service. We both presented architecture diagrams to our manager, explaining the advantages and trade-offs of each solution.
+
+**Result:**    
+While my teammate’s solution saved resources, it risked overloading CPU and memory during peak sessions. My design allowed the main service to focus on table row data while independent document services handled attachments. This improved scalability, reduced resource contention, and gave us flexibility to scale document services independently during busy periods. The team adopted my approach, which led to smoother performance and better resilience under heavy load.
+
 
 ## Describe a time you had to learn a completely new technology or tool quickly.
 
