@@ -46,3 +46,22 @@ Within a short time, we successfully migrated to Aspose. The new solution suppor
 
 
 ## How do you handle high-stress situations or production bugs in a financial environment?
+**Situation:**  
+In production, we discovered that certain users in the China environment were unable to convert emails to PDF. The same functionality worked fine in the US environment.
+
+**Task:**  
+My responsibility was to investigate why the issue was region-specific, identify the root cause, and implement a fix that ensured consistent conversion across both environments.
+
+**Action:**  
+I analyzed logs and error reports from the China environment and found that the failures were tied to dates containing Chinese characters in the email content. The PDF conversion library was not handling localized date strings correctly.
+
+I reproduced the issue by simulating emails with Chinese date formats (e.g., “2026年5月17日”).
+
+I updated the parsing logic to use InvariantCulture and standardized date handling before passing data to the PDF generator.
+
+I ensured the conversion process used Unicode-compliant encoding so that Chinese characters were preserved.
+
+I added unit tests covering multiple locales and worked with QA to validate the fix in both US and China environments.
+
+**Result:**  
+The fix resolved the conversion failures, and emails with Chinese date formats were successfully converted to PDF. This improved reliability for international users, reduced support tickets, and strengthened the system’s ability to handle global requirements.
