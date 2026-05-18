@@ -1,6 +1,6 @@
 My Name is priteshkumar Lad.
 
-“I have around X years of experience working as a .NET developer, with a strong focus on building scalable, high‑performance applications using C#, ASP.NET Core, Web API, Entity Framework, and SQL Server.
+“I have around 10+ years of experience working as a .NET developer, with a strong focus on building scalable, high‑performance applications using C#, NET Core, Web API, Entity Framework, SQL Server, React and Angular.
 
 Over the years, I’ve worked on end‑to‑end development—everything from designing architecture and writing clean, maintainable code to optimizing performance and leading code reviews. I’ve also collaborated closely with product owners, QA teams, and DevOps to deliver reliable, production‑ready solutions.
 
