@@ -65,3 +65,22 @@ I added unit tests covering multiple locales and worked with QA to validate the 
 
 **Result:**  
 The fix resolved the conversion failures, and emails with Chinese date formats were successfully converted to PDF. This improved reliability for international users, reduced support tickets, and strengthened the system’s ability to handle global requirements.
+
+
+
+
+## Tell me about a time you disagreed with your superior.
+
+**S – Situation**   
+In my previous role, our team needed to provide a recurring operational report to several departments. My manager wanted us to generate the report in Excel and email it manually each week, believing it would be faster to implement.
+
+**T – Task**   
+As the developer responsible for building the reporting solution, I needed to ensure whatever we delivered was maintainable, scalable, and didn’t create long‑term manual overhead. I felt that relying on Excel exports would lead to versioning issues, manual errors, and repeated development effort every time requirements changed.
+
+**A – Action**   
+I scheduled a short meeting with my manager to walk through my concerns. I explained that while generating an Excel file was quick, it would require ongoing manual work and wouldn’t support real‑time data access.
+I proposed an alternative: a lightweight .NET web app with a simple UI and an API endpoint that could generate the report on demand. I created a small proof‑of‑concept showing how users could filter data and export to Excel if needed, all without manual intervention.
+I emphasized long‑term benefits—automation, auditability, reduced support tickets, and easier enhancements.
+
+**R – Result**   
+After reviewing the prototype, my manager agreed that the web‑based approach provided more value. We built the app, and it reduced manual reporting time by nearly 100%, eliminated version‑control issues, and allowed other teams to self‑serve their data. The experience reinforced for me that disagreements handled with data, prototypes, and a focus on long‑term impact lead to better technical decisions.
