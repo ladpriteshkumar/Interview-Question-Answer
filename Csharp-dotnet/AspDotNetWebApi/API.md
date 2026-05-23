@@ -48,3 +48,6 @@ Frameworks: Socket.IO (Node.js), SignalR (.NET).
 Use case: Chat apps, live dashboards, multiplayer games.
 
 Each method has its strengths — REST for simplicity, SOAP for reliability, GraphQL for flexibility, gRPC for speed, and WebSocket for real-time updates.
+
+
+## Defference between REST API and SOAP
