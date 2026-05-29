@@ -1,3 +1,13 @@
+The 4 Pillars Context
+
+| Pillar | One-liner |
+|--|--|
+|Encapsulation|  Hide internal details|   
+|Abstraction |Show only what's needed  | 
+|Inheritance |Child reuses parent code   |
+|Polymorphism |One interface, many behaviors|   
+
+
 ## Why do we need OOP ? OR What is OOP ?
 
 Object-Oriented Programming (OOP) is a structured way to design and build software that is scalable, maintainable, and reusable.   
@@ -134,6 +144,7 @@ class Program
 
   
 #### Polymorphism 🔄  [Ref1](https://www.geeksforgeeks.org/c-sharp/polymorphism-in-c-sharp/)
+- "Polymorphism means one interface, many forms. It allows the same method or function to behave differently depending on the object calling it. It makes code flexible, reusable, and easy to extend without modifying existing logic."
 - Polymorphism means “many forms”, Polymorphism is the ability of a method or interface to take multiple forms.
 - In C#, polymorphism is achieved through method overriding (runtime polymorphism)  and method overloading (compile‑time polymorphism).
 - method overriding (runtime polymorphism) where derived classes provide their own implementation of a base class method.
