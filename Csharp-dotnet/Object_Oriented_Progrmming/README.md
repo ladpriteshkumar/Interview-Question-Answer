@@ -153,6 +153,7 @@ class Program
 - Makes systems extensible and flexible.
 - Example: A `shape` class with a   `Draw()` method, implemented differently by `Circle` and `Tringle` .
 
+
 ```csharp
 // Base class
 public class Vehicle
@@ -224,6 +225,9 @@ class Program
 - Achieved using method overriding with  and  keywords.
 - The actual method executed is determined at runtime based on the object type.
 
+
+**3. How does polymorphism relate to SOLID principles?**   
+It directly supports the Open/Closed Principle — code is open for extension (new subclasses) but closed for modification (existing code untouched).
 
 # 🚗 Car Analogy for OOP Pillars
 
