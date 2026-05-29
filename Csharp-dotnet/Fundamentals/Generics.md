@@ -3,20 +3,6 @@ Generics allow us to write flexible, reusable, and type‑safe code that work wi
 
 Generics allow developers to design classes, methods, and interfaces that can work with any data type without compromising type safety.
 
-## What Are Generics? (Easy Explanation)
-Generics let you create reusable code that works with any data type while still keeping type safety.   
-Think of generics like a template:   
-- You write the logic once
-- You decide the data type later
-- The compiler still checks types and prevents errors
----
-Generics are not a datatype.
-They are a feature in C# that lets you create classes, methods, and interfaces that work with any datatype in a type‑safe way.
-
-Think of generics as templates.
-
-You write the logic once, and the datatype becomes a placeholder like `<T>`.
-
 
 ## Why Generics Are Useful
 **1. Reusable Code**:
