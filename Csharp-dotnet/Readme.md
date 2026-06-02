@@ -27,7 +27,7 @@ https://www.fullstack.cafe/
 
 ### [How can we manage unmanage resource in c#?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/GarbageCollector_ManagementAndUnManageResource.md)
 
-### What are the defferent Method have you used in TPL (Task Parallal Library)
+### [What are the defferent Method have you used in TPL (Task Parallal Library)](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/TPL.md)
 
 ### 6. [What are threads (Multithreading)?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/b713c300498a1e8a06466a5ba4fbdc4f62dc2364/Interview-Questions/What%20are%20threads%20(Multithreading).md)
 
