@@ -31,3 +31,18 @@ Parallel.For(...)
 Parallel.ForEach(...)
 
 Parallel.Invoke(...)
+
+
+
+## What is TaskCompletionSource ?
+
+`TaskCompletionSource<TResult>` (TCS) is a class that lets you manually create and control a Task.
+Instead of the Task running code automatically, 
+
+you decide when it:
+
+Completes successfully → `SetResult`
+
+Fails → `SetException`
+
+Gets canceled → `SetCanceled`
