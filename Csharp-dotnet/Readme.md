@@ -58,12 +58,6 @@ What do you do if your services receive higher calls,
 
 how do you improve api response time, if it is running slow. how do you imporve the perfomance of an api
 
-ORM(Object Relation Mapping)
-
-Dapper
-
-Entity Framework
-
 HashSet in C#
 
 ConfigurationSection in C#
