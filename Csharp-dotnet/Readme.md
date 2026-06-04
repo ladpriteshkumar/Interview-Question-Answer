@@ -64,8 +64,6 @@ Dapper
 
 Entity Framework
 
-Tuple in C#
-
 HashSet in C#
 
 ConfigurationSection in C#
