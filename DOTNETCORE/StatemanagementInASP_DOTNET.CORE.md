@@ -13,3 +13,14 @@ State management refers to preserving data across requests in a web application.
 - Route Values
 - Hidden Fields
 - caching
+
+
+
+## ViewBag vs ViewData vs TempData
+
+| Feature | ViewBag | ViewData | TempData |
+| --- | --- | --- | --- |
+| Type | Dynamic | Dictionary | Dictionary |
+| Lifetime | Current request | Current request | One redirect |
+| Syntax | ``ViewBag.Name`` | ``ViewData["Name"]`` | ``TempData["Name"]`` |
+| Use Case | Simple data | Simple data | Redirect messages |
