@@ -52,8 +52,6 @@ MCP Server (AI)
 
 How JWT Works
 
-What is tree shacking
-
 Authentication and Authorization (EntraId , LDAP)
 
 What do you do if your services receive higher calls,
