@@ -12,7 +12,10 @@ Web API is a framework (in .NET) used to build HTTP services — and it can be R
 REST is not a technology or framework — it’s a set of rules/constraints for designing networked applications.
 
 A REST API must follow principles like:
-- Client–server architecture
+- Client–server architecture   
+  The client (frontend) and server (backend) are separated.   
+  Client handles UI/UX
+  Server handles data and logic
 - Stateless communication
 - Resource-based URLs
 - HTTP methods used properly (GET, POST, PUT, DELETE)
