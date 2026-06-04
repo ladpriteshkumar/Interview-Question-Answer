@@ -48,7 +48,6 @@ https://www.fullstack.cafe/
 ### [Difference between WEB API and REST API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/RESTAPI.md)
 
 ---
-MCP Server (AI)
 
 How JWT Works
 
