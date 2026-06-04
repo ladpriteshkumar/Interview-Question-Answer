@@ -25,3 +25,7 @@ EF Core acts as a middle layer between your .NET application and your database:
 - Supports Code‑First and Database‑First approaches (Code‑First is primary)
 - LINQ querying for strongly typed, compile‑time‑checked queries
 - Migrations to evolve your database schema over time
+
+
+
+What is Dapper ? (ORM)
