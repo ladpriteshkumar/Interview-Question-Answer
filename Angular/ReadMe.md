@@ -16,3 +16,6 @@ module is a container for group of related components, directives, pipes and ser
 ## what is routing in Angular ?
 
 ## what is service in Angular ?
+
+## What is tree shaking ?
+Tree shaking is a code‑optimization technique that removes unused (dead) code from your JavaScript bundle, making the final output smaller and faster.
