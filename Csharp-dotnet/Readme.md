@@ -39,12 +39,13 @@ https://www.fullstack.cafe/
 
 ### [Difference Between Ref and Out Parameter](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/6e3c5e1fc36cba86a0afe31d6a929daab219dd5d/Interview-Questions/Difference%20Between%20Ref%20and%20Out%20Parameter.md)
 
-### 9. [Delegates in C#](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/b81ef7dfc048f9d326747a566c64bd7b8da76259/Interview-Questions/Delegates.md)
+### [Delegates in C#](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/b81ef7dfc048f9d326747a566c64bd7b8da76259/Interview-Questions/Delegates.md)
 
-### 10. [Events](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/ff1214a6b356f40d633f9a7c4d630e7f48fe8328/Interview-Questions/events.md)
+### [Events](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/ff1214a6b356f40d633f9a7c4d630e7f48fe8328/Interview-Questions/events.md)
 
-### 11. [Whats the difference between Abstract class and interface ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/332a9efa170892b862f7b97bb8d18f62313863d7/Interview-Questions/Abstract%20class%20and%20interface.md)
+### [Whats the difference between Abstract class and interface ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/332a9efa170892b862f7b97bb8d18f62313863d7/Interview-Questions/Abstract%20class%20and%20interface.md)
 
+### [Difference between WEB API and REST API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/RESTAPI.md)
 
 ---
 MCP Server (AI)
