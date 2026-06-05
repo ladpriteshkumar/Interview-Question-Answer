@@ -59,6 +59,4 @@ how do you improve api response time, if it is running slow. how do you imporve 
 
 HashSet in C#
 
-ConfigurationSection in C#
-
 Return type in Action Method (MVC)
