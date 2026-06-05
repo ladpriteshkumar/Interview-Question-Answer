@@ -1,5 +1,5 @@
 
-### 1. [Explain difference between .NET and C# ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/Explain%20difference%20between%20.NET%20and%20C%23.md)
+### 1. [Explain difference between .NET and C# ?](Explain%20difference%20between%20.NET%20and%20C%23.md)
 
 ### 2. .NET Framework vs .NET Core vs .NET 5.0 (Difference) ?
 .NET Framework is the older, Windows‑only runtime mainly used for legacy enterprise applications. .NET Core is a modern, open‑source, cross‑platform, high‑performance framework designed for cloud and microservices. .NET 5 and later unify everything into a single platform — it’s cross‑platform, fast, and the recommended choice for all new development.
