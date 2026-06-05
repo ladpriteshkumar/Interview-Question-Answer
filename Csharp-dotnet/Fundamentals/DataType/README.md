@@ -7,7 +7,7 @@
     **1 Value Type**    
     **2 Reference Type**
 
-![image](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/DataType/DataTypeinCsharp.png)
+![image](DataTypeinCsharp.png)
           
 ## 1 Value Type: 
 * A value type variable stores actual values.     
