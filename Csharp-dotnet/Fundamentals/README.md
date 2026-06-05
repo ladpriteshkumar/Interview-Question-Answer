@@ -14,7 +14,7 @@
 | Future Development    | Maintenance only       | Ended at .NET Core 3.1     | Actively developed (future of .NET) |
 | Use Case              | Legacy enterprise apps | Modern, cloud, microservices | All new development, unified platform |
 
-![IMAGE](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/dotnetframework-vs-dotnet.jpg)
+![IMAGE](dotnetframework-vs-dotnet.jpg)
 
 ### 3. What is IL ( Intermediate Language)  ?
 Intermediate Language (IL), also called  Common Intermediate Language(CIL) or Microsoft Intermediate Language (MSIL), all .NET languages (like C#, VB.NET, F#) compile into IL at runtime, the Common Language Runtime (CLR) translates IL into native machine code using the Just-In-Time (JIT) compiler
@@ -25,7 +25,7 @@ The Just-In-Time (JIT) compiler in .NET converts Intermediate Language (IL) code
 Its main use is to make .NET applications platform-independent during development while still achieving high performance when executed.
 
 #### Execution
-![IMAGE](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/dotnetExecution.png)
+![IMAGE](dotnetExecution.png)
 
 ### 5. Is it possible to view IL code ?
 Yes ✅, it’s absolutely possible to view IL (Intermediate Language) code from your compiled .NET assemblies. Developers often do this to understand what the compiler generated, debug performance issues, or learn how high-level C# translates into IL.
@@ -111,6 +111,6 @@ ___
 - CLS is a subset of CTS—a set of rules that languages must follow to be cross‑language compatible.
 - Not all languages support all CTS features. CLS defines the minimum features that every .NET language must support.
 
-![IMAGE](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Interview-Questions/Fundamentals/DotNetCLR.PNG)
+![IMAGE](DotNetCLR.PNG)
 
 
