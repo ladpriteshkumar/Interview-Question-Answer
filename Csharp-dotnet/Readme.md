@@ -57,6 +57,4 @@ What do you do if your services receive higher calls,
 
 how do you improve api response time, if it is running slow. how do you imporve the perfomance of an api
 
-HashSet in C#
-
 Return type in Action Method (MVC)
