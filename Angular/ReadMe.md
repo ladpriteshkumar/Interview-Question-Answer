@@ -8,6 +8,9 @@ It provides a structured way to manage components, templates, routing, forms, an
 ### What are the key building blocks of Angular?
 The main building blocks are components, modules, templates, services, directives, pipes, routing, and RxJS-based observables.
 
+## what are components in Angular ?
+components are basic building block of angular application. A component is a directive with a template. Components control a portion of the UI
+
 ### What is the difference between a component and a directive?
 A component is a directive with a template. Components control a portion of the UI, while directives are used to alter the behavior or appearance of DOM elements.
 
@@ -17,19 +20,14 @@ A: Dependency injection is a design pattern where Angular provides required serv
 ### What is the purpose of services in Angular?
 A: Services are used to share logic and data across components, such as API calls, state handling, logging, and business rules.
 
-
-
-
-
-
-## What is Angular ?
-Angular is **TypeScript** based open-source web application development framework develop and maintain by google for building single-page web application.
-
-## what are components in Angular ?
-components are basic building block of angular application 
+## What is tree shaking ?
+Tree shaking is a code‑optimization technique that removes unused (dead) code from your JavaScript bundle, making the final output smaller and faster.
 
 ## what is module in angular ?
 module is a container for group of related components, directives, pipes and services
+
+
+
 
 ## what is data binding in Angular ?
 
@@ -41,5 +39,4 @@ module is a container for group of related components, directives, pipes and ser
 
 ## what is service in Angular ?
 
-## What is tree shaking ?
-Tree shaking is a code‑optimization technique that removes unused (dead) code from your JavaScript bundle, making the final output smaller and faster.
+
