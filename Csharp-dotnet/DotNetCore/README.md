@@ -1,7 +1,7 @@
 
 Core questions   
 ### What is .NET Core, and how is it different from .NET Framework?
-A: .NET Core is a cross-platform, modular, high-performance runtime and framework. Compared with .NET Framework, it is designed for modern cloud, container, and microservice development, and it runs on Windows, Linux, and macOS.
+.NET Core is a modern, open‑source, cross‑platform, high‑performance software development framework, designed for cloud and microservices. whereelse .NET Framework is the older, Windows‑only runtime mainly used for legacy enterprise applications.
 
 ### What are the main benefits of ASP.NET Core?
 A: Key benefits include built-in dependency injection, middleware-based request pipeline, better performance, cross-platform support, and strong support for cloud-native applications.
