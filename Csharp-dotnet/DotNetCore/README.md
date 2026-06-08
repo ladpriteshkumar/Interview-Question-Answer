@@ -26,67 +26,47 @@ ASP.NET Core has built-in support for DI with transient, scoped, and singleton l
 
 ## Advanced backend questions   
 ### How do you design a production-grade Web API in .NET Core?
-A: A senior design usually includes layered or clean architecture, proper validation, logging, global error handling, versioning, authentication, caching, health checks, and observability. The exact structure should support maintainability and independent deployment.
+A senior design usually includes layered or clean architecture, proper validation, logging, global error handling, versioning, authentication, caching, health checks, and observability. The exact structure should support maintainability and independent deployment.
 
-Q: How do you secure a .NET Core Web API?
-A: Common practices include JWT authentication, authorization policies, HTTPS, input validation, secrets management, rate limiting, and secure token handling. For enterprise systems, identity integration and role/claim-based access are also important.
+### How do you secure a .NET Core Web API?
+Common practices include JWT authentication, authorization policies, HTTPS, input validation, secrets management, rate limiting, and secure token handling. For enterprise systems, identity integration and role/claim-based access are also important.
 
-Q: What is the difference between authentication and authorization?
-A: Authentication verifies who the user is. Authorization determines what that user is allowed to do.
+### What is the difference between authentication and authorization?
+Authentication verifies who the user is. Authorization determines what that user is allowed to do.
 
-Q: What is the purpose of API versioning?
-A: API versioning helps you evolve endpoints without breaking existing clients. In .NET Core, versioning can be done using URL segments, query strings, or headers.
+### What is the purpose of API versioning?
+API versioning helps you evolve endpoints without breaking existing clients. In .NET Core, versioning can be done using URL segments, query strings, or headers.
 
-Q: Why is IHttpClientFactory recommended?
-A: It helps avoid socket exhaustion, supports better handler management, and makes named or typed clients easier to configure and test.
+## Entity Framework Core questions   
 
-Entity Framework Core questions
-Q: What is the difference between IEnumerable and IQueryable?
-A: IEnumerable works on in-memory collections, while IQueryable builds queries that can be translated and executed by a remote provider such as a database. In EF Core, IQueryable is usually preferred until query execution.
+### What is the difference between IEnumerable and IQueryable?
+IEnumerable executes queries in memory, whereas IQueryable builds expression trees that EF Core can translate into SQL and execute on the database server.
 
-Q: What are migrations in EF Core?
+### What are migrations in EF Core?
 A: Migrations are a way to evolve the database schema as your model changes. They let you keep schema and code aligned across environments.
 
-Q: How do you handle performance issues in EF Core?
+### How do you handle performance issues in EF Core?
 A: Common improvements include projecting only needed columns, avoiding unnecessary Include, using pagination, avoiding N+1 queries, and choosing the correct tracking behavior.
 
-Architecture and patterns
-Q: What is Clean Architecture?
+## Architecture and patterns   
+
+### What is Clean Architecture?
 A: Clean Architecture separates core business logic from infrastructure and UI concerns. The goal is to keep business rules independent of frameworks and databases.
 
 Q: What is CQRS?
 A: CQRS separates read and write models. It can improve clarity, scalability, and performance when read and write concerns differ significantly.
 
-Q: What is the Saga pattern?
-A: Saga manages distributed transactions across services using a sequence of local transactions and compensating actions instead of a single database transaction.
 
-Q: When would you use a message broker instead of REST between services?
-A: Use a broker when you need asynchronous communication, loose coupling, resilience, and better handling of spikes or eventual consistency. REST is better for synchronous request-response interactions.
-
-Senior-level scenario questions
-Q: How do you diagnose a production performance issue you cannot reproduce locally?
+## Senior-level scenario questions   
+### How do you diagnose a production performance issue you cannot reproduce locally?
 A: Start with metrics, logs, tracing, and infrastructure signals. Then narrow down whether the issue is CPU, memory, database latency, lock contention, thread starvation, network, or downstream dependency related.
 
-Q: How would you handle a critical production outage?
+### How would you handle a critical production outage?
 A: First stabilize the system, then identify blast radius, roll back if needed, communicate clearly, and verify recovery with monitoring. Afterward, perform root-cause analysis and preventive actions.
 
-Q: How do you structure a multi-tenant SaaS application in .NET Core?
+### How do you structure a multi-tenant SaaS application in .NET Core?
 A: Common approaches include shared database with tenant discriminator, separate schema per tenant, or separate database per tenant. The choice depends on isolation, cost, compliance, and scaling requirements.
 
-Strong answer style for interviews
-For 10 years’ experience, interviewers usually want more than definitions. They expect you to explain trade-offs, mention production experience, and justify decisions with examples from real systems.
-
-A good answer structure is:
-
-Define the concept briefly.
-
-Explain why it matters in real projects.
-
-Mention one trade-off or pitfall.
-
-Give one practical example from production.
-
-For example, if asked about caching, you can say that in-memory caching is fast but local to one instance, while distributed caching is better for scaled-out deployments. That kind of answer shows both technical understanding and system thinking.
 
 Suggested prep topics
 Focus your preparation on these areas:
