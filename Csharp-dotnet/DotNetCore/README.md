@@ -15,17 +15,17 @@ It can inspect, modify, or short‑circuit the pipeline.
   - **Decides whether to continue the pipeline** — a middleware can pass the request to the next component or stop the pipeline (terminal middleware).
   - **Runs code before and after the next middleware** — enabling tasks like logging, authentication, routing, and error handling. 
 
+### What is dependency injection in ASP.NET Core?
+Dependency injection is a software design pattern where dependencies are provided from outside the class rather than created internally.   
+ASP.NET Core has built-in support for DI with transient, scoped, and singleton lifetimes.
 
-A: Middleware is software that runs in the HTTP request/response pipeline. Each component can process a request, pass it to the next component, or short-circuit the pipeline.
+### What is the difference between transient, scoped, and singleton services?
+**Transient** creates a new instance every time it is requested.   
+**Scoped** creates one instance per request.   
+**Singleton** creates one instance for the entire application lifetime.
 
-Q: What is dependency injection in ASP.NET Core?
-A: Dependency injection is a design pattern where dependencies are provided from outside the class rather than created internally. ASP.NET Core has built-in support for DI with transient, scoped, and singleton lifetimes.
-
-Q: What is the difference between transient, scoped, and singleton services?
-A: Transient creates a new instance every time it is requested. Scoped creates one instance per request. Singleton creates one instance for the entire application lifetime.
-
-Advanced backend questions
-Q: How do you design a production-grade Web API in .NET Core?
+## Advanced backend questions   
+### How do you design a production-grade Web API in .NET Core?
 A: A senior design usually includes layered or clean architecture, proper validation, logging, global error handling, versioning, authentication, caching, health checks, and observability. The exact structure should support maintainability and independent deployment.
 
 Q: How do you secure a .NET Core Web API?
