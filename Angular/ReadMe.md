@@ -1,3 +1,27 @@
+
+## Core questions   
+
+### What is Angular, and why is it used?
+Angular is **TypeScript** based open-source web application development framework develop and maintain by google for building single-page web application.   
+It provides a structured way to manage components, templates, routing, forms, and HTTP communication.
+
+### What are the key building blocks of Angular?
+The main building blocks are components, modules, templates, services, directives, pipes, routing, and RxJS-based observables.
+
+### What is the difference between a component and a directive?
+A: A component is a directive with a template. Components control a portion of the UI, while directives are used to alter the behavior or appearance of DOM elements.
+
+Q: What is dependency injection in Angular?
+A: Dependency injection is a design pattern where Angular provides required services or dependencies to classes rather than classes creating them themselves. It improves modularity, testability, and maintainability.
+
+Q: What is the purpose of services in Angular?
+A: Services are used to share logic and data across components, such as API calls, state handling, logging, and business rules.
+
+
+
+
+
+
 ## What is Angular ?
 Angular is **TypeScript** based open-source web application development framework develop and maintain by google for building single-page web application.
 
