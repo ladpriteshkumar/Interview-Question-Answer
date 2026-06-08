@@ -36,6 +36,11 @@ Observables also support powerful operators like `map`, `filter`, `debounceTime`
 Promises are simpler and best for one‑time async operations like a single HTTP request.
 
 
+### What is forkJoin used for?
+A: forkJoin runs multiple observables in parallel and emits once all complete, making it useful for loading several independent API calls together.
+
+
+
 ## what is data binding in Angular ?
 
 ## what is dependancy injection in Angular ?
