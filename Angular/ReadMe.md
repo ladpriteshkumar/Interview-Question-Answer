@@ -26,7 +26,14 @@ Tree shaking is a code‑optimization technique that removes unused (dead) code 
 ## what is module in angular ?
 module is a container for group of related components, directives, pipes and services
 
+### What is the difference between an Observable and a Promise?   
+A Promise handles a single asynchronous value, while an Observable handles a stream of asynchronous values over time.
 
+A Promise is eager — it starts running immediately and cannot be cancelled.   
+An Observable is lazy — it runs only when someone subscribes, and it can be cancelled using unsubscribe().
+
+Observables also support powerful operators like `map`, `filter`, `debounceTime`, and are ideal for event streams such as user input, WebSockets, or repeated HTTP calls.
+Promises are simpler and best for one‑time async operations like a single HTTP request.
 
 
 ## what is data binding in Angular ?
