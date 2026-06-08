@@ -3,10 +3,10 @@ Core questions
 ### What is .NET Core, and how is it different from .NET Framework?
 .NET Core is a modern, open‑source, cross‑platform, high‑performance software development framework, designed for cloud and microservices. whereelse .NET Framework is the older, Windows‑only runtime mainly used for legacy enterprise applications.
 
-### What are the main benefits of ASP.NET Core?
-A: Key benefits include built-in dependency injection, middleware-based request pipeline, better performance, cross-platform support, and strong support for cloud-native applications.
+### What are the main benefits of ASP.NET Core?   
+Key benefits include built-in dependency injection, middleware-based request pipeline, better performance, cross-platform support, and strong support for cloud-native applications.
 
-Q: What is middleware in ASP.NET Core?
+### What is middleware in ASP.NET Core?
 A: Middleware is software that runs in the HTTP request/response pipeline. Each component can process a request, pass it to the next component, or short-circuit the pipeline.
 
 Q: What is dependency injection in ASP.NET Core?
