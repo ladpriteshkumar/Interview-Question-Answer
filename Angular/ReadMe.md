@@ -1,4 +1,4 @@
-
+[Augular QandA Ref](https://github.com/ladpriteshkumar/Learn-Angular/blob/main/InterviewQandA/README.md)
 ## Core questions   
 
 ### What is Angular, and why is it used?
