@@ -7,6 +7,15 @@ Core questions
 Key benefits include built-in dependency injection, middleware-based request pipeline, better performance, cross-platform support, and strong support for cloud-native applications.
 
 ### What is middleware in ASP.NET Core?
+Middleware in ASP.NET Core is a lightweight software component that sits in the HTTP request pipeline and processes incoming requests and outgoing responses.    
+It can inspect, modify, or short‑circuit the pipeline.
+
+  #### What Middleware Does
+  - **Handles requests and responses** — every HTTP request passes through a chain of middleware components before reaching your endpoint, and the response travels back through them in reverse.
+  - **Decides whether to continue the pipeline** — a middleware can pass the request to the next component or stop the pipeline (terminal middleware).
+  - **Runs code before and after the next middleware** — enabling tasks like logging, authentication, routing, and error handling. 
+
+
 A: Middleware is software that runs in the HTTP request/response pipeline. Each component can process a request, pass it to the next component, or short-circuit the pipeline.
 
 Q: What is dependency injection in ASP.NET Core?
