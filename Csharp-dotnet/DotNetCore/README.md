@@ -1,5 +1,7 @@
 ### [State Management in ASP.NET Core](StatemanagementInASP_DOTNET.CORE.md)
 
+### [Type of Cookies in ASP.NET Core](TypeofCookiesIn_ASP_NET_CORE.md)
+
 ### [Top-level-statement](Top-level-statement.md)
 
 ### [String interpolation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated)
