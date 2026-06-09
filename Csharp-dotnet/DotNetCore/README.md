@@ -8,13 +8,7 @@ Key benefits include built-in dependency injection, middleware-based request pip
 
 ### [What is middleware in ASP.NET Core?](MiddlewareInDotNetCore.md)
 Middleware in ASP.NET Core is a lightweight software component that sits in the HTTP request pipeline and processes incoming requests and outgoing responses.    
-It can inspect, modify, or short‑circuit the pipeline.
-
-  #### What Middleware Does
-  - **Handles requests and responses** — every HTTP request passes through a chain of middleware components before reaching your endpoint, and the response travels back through them in reverse.
-  - **Decides whether to continue the pipeline** — a middleware can pass the request to the next component or stop the pipeline (terminal middleware).
-  - **Runs code before and after the next middleware** — enabling tasks like logging, authentication, routing, and error handling. 
-
+ 
 ### What is dependency injection in ASP.NET Core?
 Dependency injection is a software design pattern where dependencies are provided from outside the class rather than created internally.   
 ASP.NET Core has built-in support for DI with transient, scoped, and singleton lifetimes.
