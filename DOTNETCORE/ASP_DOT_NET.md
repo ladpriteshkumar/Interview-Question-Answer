@@ -1,6 +1,5 @@
 # ASP.NET Interview Question
 
-### 1) Type of Cookies in ASP.NET ?
 ### 2) Difference between ExecuteScaller and ExecuteNonQuery ? (ADO.NET)
 ### 3) What do you check if SP is Running slow on production but not in dev Environment.(SQL)
 ### 4) waht is the tuffest challenge you face and how do you overcome with it.
