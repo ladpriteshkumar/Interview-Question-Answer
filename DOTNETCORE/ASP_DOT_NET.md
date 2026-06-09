@@ -7,5 +7,4 @@
 ### 5) what happen when you create a object of class
 ### 6) How Garbage Collector dispose the unused object
 ### 7) How garage collector identify unused object
-### 8) What is Top Level Statement in C#
 ### 9) Advantages of using Store Procedure(SP) (SQL)
