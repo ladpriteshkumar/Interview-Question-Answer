@@ -1,6 +1,8 @@
 ### [State Management in ASP.NET Core](StatemanagementInASP_DOTNET.CORE.md)
 
 ### [Top-level-statement](Top-level-statement.md)
+
+### [String interpolation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated)
    
 Core questions   
 ### What is .NET Core, and how is it different from .NET Framework?
