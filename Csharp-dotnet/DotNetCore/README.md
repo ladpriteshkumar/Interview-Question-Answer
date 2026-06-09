@@ -6,7 +6,7 @@ Core questions
 ### What are the main benefits of ASP.NET Core?   
 Key benefits include built-in dependency injection, middleware-based request pipeline, better performance, cross-platform support, and strong support for cloud-native applications.
 
-### What is middleware in ASP.NET Core?
+### [What is middleware in ASP.NET Core?](MiddlewareInDotNetCore.md)
 Middleware in ASP.NET Core is a lightweight software component that sits in the HTTP request pipeline and processes incoming requests and outgoing responses.    
 It can inspect, modify, or short‑circuit the pipeline.
 
