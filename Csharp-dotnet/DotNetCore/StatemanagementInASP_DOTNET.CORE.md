@@ -1,8 +1,8 @@
 [REF](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-10.0)
 ## State Management in ASP.NET Core
 State management in .NET Core is the technique of preserving data across multiple requests in a web application. Since HTTP is stateless, the server forgets every interaction as soon as a request finishes.   
-ASP.NET provides multiple techniques to maintain user data.   
-*OR*
+ASP.NET provides multiple techniques to maintain user data.      
+*OR*   
 State management in .NET Core (specifically ASP.NET Core) refers to the techniques used to preserve data across multiple HTTP requests. Because HTTP is stateless, every request is independent.   
 — so ASP.NET Core provides several mechanisms to maintain user data, application data, and UI state across requests.
 
