@@ -1,4 +1,3 @@
-### [Explain Middleware in ASP.NET Core](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/DOTNETCORE/ExplainMiddleWare.md)
 
 ### What is Global using ?
 Global using in .NET (introduced in C# 10/.NET 6) is a feature that lets you declare a using directive once and make it available across your entire project, instead of repeating it at the top of every .cs file
