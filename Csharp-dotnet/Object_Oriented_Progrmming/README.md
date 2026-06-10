@@ -51,6 +51,7 @@ We need OOP because it helps us build large, complex, maintainable, and reusable
 - Controls access to data using access modifiers (public, private, protected)
 - Protects internal state by exposing only what’s necessary through public access modifiers.
 - Example: A `BankAccount` class hides its balance field and only allows deposits/withdrawals via methods.
+- Encapsulation is the OOP concept that supports the Single Responsibility Principle.
  
 ### Abstraction 
 - “Abstraction is the OOP principle of exposing only the essential features of an object while hiding unnecessary implementation details.
