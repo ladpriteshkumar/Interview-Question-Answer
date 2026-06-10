@@ -28,9 +28,6 @@
 
 ---
 
-Here’s the clean, structured, **deep‑but‑digestible** explanation of the **SOLID principles** — the five most influential guidelines for writing maintainable, scalable, and clean object‑oriented software.
-
----
 
 # ⭐ SOLID Principles (Explained Simply + Practically)
 
