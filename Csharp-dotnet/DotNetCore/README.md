@@ -22,8 +22,7 @@ Middleware in ASP.NET Core is a lightweight software component that sits in the 
 Dependency injection is a software design pattern where dependencies are provided from outside the class rather than created internally.   
 ASP.NET Core has built-in support for DI with transient, scoped, and singleton lifetimes.
 
-### Explain Service Lifetime in .NET core ?   
-### What is the difference between transient, scoped, and singleton services?
+### Explain Service Lifetime in .NET core ? *OR* What is the difference between transient, scoped, and singleton services?
 **Transient** creates a new instance every time it is requested.   
 **Scoped** creates one instance per request.   
 **Singleton** creates one instance for the entire application lifetime.
