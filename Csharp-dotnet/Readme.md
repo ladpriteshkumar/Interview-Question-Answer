@@ -14,7 +14,7 @@ https://www.fullstack.cafe/
 
 > ### [Data Type in C#](DataType/README.md) ? 
 
-> ### [what is Constructor](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Constructor_and_Destructor.md)
+> ### [what is Constructor ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Constructor_and_Destructor.md)
 
 > ### [What is Destructor ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Constructor_and_Destructor.md)
 
