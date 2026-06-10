@@ -3,7 +3,7 @@
 ## What is Class ?
 A class is a user-defined reference type data type that encapsulates data and behavior.   
 It can contain fields, properties, methods, events, and constructors.   
-A class itself does not occupy memory until its objects are created.
+A class itself does not occupy memory until its objects are created.   
 A class is a blueprint of an objects.
 
 ---
