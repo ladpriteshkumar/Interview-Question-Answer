@@ -49,6 +49,7 @@ Let’s break them down one by one.
 
 ### Meaning  
 Each class should do **one job**.  
+This keeps code clean, focused, and easy to maintain.   
 If a class is doing multiple things, it becomes harder to maintain and more fragile.
 
 ### Example  
