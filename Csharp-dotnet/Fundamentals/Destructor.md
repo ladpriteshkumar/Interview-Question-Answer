@@ -2,9 +2,6 @@
 
 A **destructor** in C# is a special method that runs automatically when the **garbage collector** is about to reclaim an object. Its purpose is to clean up **unmanaged resources** as a last‑chance fallback.
 
-The key takeaway:  
-> A destructor is C#’s version of a *finalizer* — it runs nondeterministically and should only be used to release unmanaged resources if `Dispose()` wasn’t called.
-
 ---
 
 ## 🧩 What a destructor looks like
