@@ -1,4 +1,4 @@
-
+# What is Constructor ?
 A **constructor** in C# is a special method that runs **automatically** when you create an object. Its job is to **initialize the object**, set default values, and prepare it for use.
 
 Think of it as the “setup” step every time you say `new`.
