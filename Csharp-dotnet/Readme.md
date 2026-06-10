@@ -14,9 +14,9 @@ https://www.fullstack.cafe/
 
 > ### [Data Type in C#](DataType/README.md) ? 
 
-> ### [what is Constructor]()
+> ### [what is Constructor](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Constructor_and_Destructor.md)
 
-> ### [What is Destructor ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Destructor.md)
+> ### [What is Destructor ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Constructor_and_Destructor.md)
 
 ### [Explain Type casting in C# ? OR Explain casting, implicit casting and explicit casting](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/92e6583639e1c3181f583e2d77f1addbedcf57b4/Interview-Questions/Explain%20Type%20Casting.md)
 
