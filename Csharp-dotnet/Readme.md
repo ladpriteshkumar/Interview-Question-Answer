@@ -18,8 +18,7 @@ https://www.fullstack.cafe/
 
 > ### [What is Destructor ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Constructor_and_Destructor.md)
 
-### [Explain Type casting in C# ? OR Explain casting, implicit casting and explicit casting](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/92e6583639e1c3181f583e2d77f1addbedcf57b4/Interview-Questions/Explain%20Type%20Casting.md)
-
+> ### [Explain Type casting in C# ? OR Explain casting, implicit casting and explicit casting](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/92e6583639e1c3181f583e2d77f1addbedcf57b4/Interview-Questions/Explain%20Type%20Casting.md)
 
 > ### [Array and ArrayList](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/c2debea049fa8121cd80334b69e746cd860b658e/Interview-Questions/Array%20and%20ArrayList.md)
 
