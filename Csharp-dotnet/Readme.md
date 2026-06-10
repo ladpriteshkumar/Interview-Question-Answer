@@ -21,23 +21,23 @@ https://www.fullstack.cafe/
 ### [Explain Type casting in C# ? OR Explain casting, implicit casting and explicit casting](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/92e6583639e1c3181f583e2d77f1addbedcf57b4/Interview-Questions/Explain%20Type%20Casting.md)
 
 
-### [Array and ArrayList](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/c2debea049fa8121cd80334b69e746cd860b658e/Interview-Questions/Array%20and%20ArrayList.md)
+> ### [Array and ArrayList](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/c2debea049fa8121cd80334b69e746cd860b658e/Interview-Questions/Array%20and%20ArrayList.md)
 
-### [What is Generics](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Generics.md)
+> ### [What is Generics](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Generics.md)
 
-###  [What are generic collections ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/1cafed76b9e151e79e0efb686b1145824946a523/Interview-Questions/generic%20collections.md)
+> ###  [What are generic collections ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/1cafed76b9e151e79e0efb686b1145824946a523/Interview-Questions/generic%20collections.md)
 
-### [Explain Runtime Polymorphism?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Object_Oriented_Progrmming/README.md)
+> ### [Explain Runtime Polymorphism?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Object_Oriented_Progrmming/README.md)
 
-### [How can we manage unmanage resource in c#?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/GarbageCollector_ManagementAndUnManageResource.md)
+> ### [How can we manage unmanage resource in c#?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/GarbageCollector_ManagementAndUnManageResource.md)
 
-### [What are the defferent Method have you used in TPL (Task Parallal Library)](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/TPL.md)
+> ### [What are the defferent Method have you used in TPL (Task Parallal Library)](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/TPL.md)
 
-### [What are threads (Multithreading)?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/b713c300498a1e8a06466a5ba4fbdc4f62dc2364/Interview-Questions/What%20are%20threads%20(Multithreading).md)
+> ### [What are threads (Multithreading)?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/b713c300498a1e8a06466a5ba4fbdc4f62dc2364/Interview-Questions/What%20are%20threads%20(Multithreading).md)
 
-### [Understanding Middleware In ASP.NET Core](https://www.c-sharpcorner.com/article/overview-of-middleware-in-asp-net-core/)
+> ### [Understanding Middleware In ASP.NET Core](https://www.c-sharpcorner.com/article/overview-of-middleware-in-asp-net-core/)
 
-### [Explain Milldeware in ASP.NET Core ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/MiddlewareInDotNetCore.md)
+> ### [Explain Milldeware in ASP.NET Core ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/MiddlewareInDotNetCore.md)
 
 ### [Exception Handling](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/f6dbca3a14f946516efa1bb68a40203fde85c820/Interview-Questions/Exceptions%20handling.md)
 
