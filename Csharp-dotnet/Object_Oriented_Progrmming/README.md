@@ -49,11 +49,11 @@ We need OOP because it helps us build large, complex, maintainable, and reusable
 ### ✅ Key Reasons We Need OOP
 #### Encapsulation 🛡️
 - “Encapsulation is the OOP principle of hiding an object’s internal data and exposing only controlled access through public methods or properties. It protects the internal state, improves security, and ensures that the object can only be modified in a controlled and predictable way.
-- Encapsulation is the principle of wrapping data (fields) and behavior (methods) together inside a single unit (class) and restricting direct access to the internal state.
 - It ensures that an object’s internal representation is hidden from the outside world.
 - Controls access to data using access modifiers (public, private, protected)
 - Protects internal state by exposing only what’s necessary through public access modifiers.
 - Example: A `BankAccount` class hides its balance field and only allows deposits/withdrawals via methods.
+  
 #### Car Example of Encapsulation
 ##### Think of a Car object:
 - Private Data (hidden internals)
