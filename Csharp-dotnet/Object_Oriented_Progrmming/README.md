@@ -6,6 +6,7 @@ It can contain fields, properties, methods, events, and constructors.
 A class itself does not occupy memory until its objects are created.
 A class is a blueprint of an objects.
 
+---
 ## What is Object?
 An object is an instance of a class, which represents a real-world entity  
 
@@ -13,7 +14,11 @@ An object is an instance of a class, which represents a real-world entity
 - State: It is represented by attributes of an object and reflects the properties of an object.
 - Behavior: It is represented by the methods of an object and also reflects how an object interacts with other objects.
 - Identity: It represents the unique reference of an object, which distinguishes it from other objects.
-
+- 
+---
+## What is OOP ?
+Object-Oriented Programming (OOP) is a structured way to design and build software that is scalable, maintainable, and reusable.   
+Instead of writing procedural code, OOP organizes logic around objects that represent real-world entities.
 
 ---
 The 4 Pillars Context
