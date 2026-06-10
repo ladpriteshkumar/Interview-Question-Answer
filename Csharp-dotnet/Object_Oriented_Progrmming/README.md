@@ -11,9 +11,9 @@ A class is a blueprint of an objects.
 An object is an instance of a class, which represents a real-world entity  
 
 **an object consists of:**
-- State: It is represented by attributes of an object and reflects the properties of an object.
-- Behavior: It is represented by the methods of an object and also reflects how an object interacts with other objects.
-- Identity: It represents the unique reference of an object, which distinguishes it from other objects.
+- **State:** It is represented by attributes of an object and reflects the properties of an object.
+- **Behavior:** It is represented by the methods of an object and also reflects how an object interacts with other objects.
+- **Identity:** It represents the unique reference of an object, which distinguishes it from other objects.
 - 
 ---
 ## What is OOP ?
