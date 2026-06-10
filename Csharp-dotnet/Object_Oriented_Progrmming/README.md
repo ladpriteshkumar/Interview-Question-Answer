@@ -44,27 +44,15 @@ We need OOP because it helps us build large, complex, maintainable, and reusable
 |Inheritance |Child reuses parent code   |
 |Polymorphism |One interface, many behaviors|   
 
----
 
-### ✅ Key Reasons We Need OOP
-#### Encapsulation 🛡️
-- “Encapsulation is the OOP principle of hiding an object’s internal data and exposing only controlled access through public methods or properties. It protects the internal state, improves security, and ensures that the object can only be modified in a controlled and predictable way.
+### Encapsulation 
+- “Encapsulation is the OOP principle of hiding an object’s internal data and exposing only controlled access through public methods or properties. It protects the internal      state, improves security, and ensures that the object can only be modified in a controlled and predictable way.
 - It ensures that an object’s internal representation is hidden from the outside world.
 - Controls access to data using access modifiers (public, private, protected)
 - Protects internal state by exposing only what’s necessary through public access modifiers.
 - Example: A `BankAccount` class hides its balance field and only allows deposits/withdrawals via methods.
-  
-#### Car Example of Encapsulation
-##### Think of a Car object:
-- Private Data (hidden internals)
-- Engine details, fuel injection system, brake hydraulics, transmission gears.
-- As a driver, you don’t directly manipulate these — they’re hidden inside the car.
-- Public Interface (controlled access)
-- Steering wheel, accelerator pedal, brake pedal, gear shift, dashboard.
-- These are the methods/properties you use to interact with the car.
-- The car internally decides how pressing the brake pedal slows the wheels — you don’t need to know the mechanics.
-
-#### Abstraction 🎭
+ 
+### Abstraction 
 - “Abstraction is the OOP principle of exposing only the essential features of an object while hiding unnecessary implementation details.
 -  It focuses on what an object does rather than how it does it, making the system easier to use, maintain, and extend.”
 - **Abstraction** is the process of **hiding implementation** details and exposing only the essential features of an object.
@@ -123,7 +111,7 @@ class Program
 }  
 ```
 
-#### Inheritance 🧬
+### Inheritance 
 - Inheritance is an OOP principle that allows one class (child/derived class) to reuse and extend the properties and behaviors of another class (parent/base class).
 - Promotes code reuse by allowing classes to derive from existing ones.
 - It promotes code reuse.
@@ -175,7 +163,7 @@ class Program
 ```
 
   
-#### Polymorphism 🔄  [Ref1](https://www.geeksforgeeks.org/c-sharp/polymorphism-in-c-sharp/)
+### Polymorphism 🔄  [Ref1](https://www.geeksforgeeks.org/c-sharp/polymorphism-in-c-sharp/)
 - "Polymorphism means one interface, many forms. It allows the same method or function to behave differently depending on the object calling it. It makes code flexible, reusable, and easy to extend without modifying existing logic."
 - Polymorphism means “many forms”, Polymorphism is the ability of a method or interface to take multiple forms.
 - In C#, polymorphism is achieved through method overriding (runtime polymorphism)  and method overloading (compile‑time polymorphism).
@@ -261,16 +249,6 @@ class Program
 **3. How does polymorphism relate to SOLID principles?**   
 It directly supports the Open/Closed Principle — code is open for extension (new subclasses) but closed for modification (existing code untouched).
 
-# 🚗 Car Analogy for OOP Pillars
-
-| OOP Concept       | Car Analogy                                                                 | OOP Mapping                                                                 |
-|-------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| **Encapsulation** 🛡️ | The car hides its internal mechanics (engine, brake hydraulics, transmission). You cannot directly manipulate them — you only interact through pedals, steering, and dashboard. | Data (fields) are kept private, and access is controlled via public methods/properties. Protects the internal state of the object. |
-| **Abstraction** 🎭   | The car exposes only the *essential controls* you need to drive: steering wheel, accelerator, brake, dashboard. You don’t need to know *how* pressing the brake slows the car — just that it does. | Focuses on *what* an object does, not *how*. Achieved via abstract classes and interfaces that define behavior without implementation. |
-| **Inheritance** 🧬   | All vehicles share common traits (engine, wheels, fuel capacity). A **Car**, **Bike**, or **Truck** inherits these traits but adds its own specifics (e.g., trunk, kick start, cargo load). | Derived classes reuse and extend base class functionality. Establishes an “is‑a” relationship between classes. |
-| **Polymorphism** 🔄  | The command “Start” works differently depending on the vehicle: a car uses an ignition key, a bike uses a kick start, an electric car uses a button. Same action, different behavior. | Same interface, different implementations. Achieved via method overriding and overloading. Enables flexible and extensible systems. |
-
----
 
 ## 🔑 Quick Memory Hook
 - **Encapsulation** = *Hide the data* (engine internals).  
