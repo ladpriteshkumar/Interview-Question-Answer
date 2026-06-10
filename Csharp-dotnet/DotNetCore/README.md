@@ -27,6 +27,18 @@ ASP.NET Core has built-in support for DI with transient, scoped, and singleton l
 **Scoped** creates one instance per request.   
 **Singleton** creates one instance for the entire application lifetime.
 
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.Add(
+    serviceType: typeof(IMyService),
+    implementationType: typeof(MyService),
+    lifetime: ServiceLifetime.Singleton
+);
+
+var app = builder.Build();
+```
+
 ## Advanced backend questions   
 ### How do you design a production-grade Web API in .NET Core?
 A senior design usually includes layered or clean architecture, proper validation, logging, global error handling, versioning, authentication, caching, health checks, and observability. The exact structure should support maintainability and independent deployment.
