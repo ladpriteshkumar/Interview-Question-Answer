@@ -21,7 +21,8 @@ Object-Oriented Programming (OOP) is a structured way to design and build softwa
 Instead of writing procedural code, OOP organizes logic around objects that represent real-world entities.
 
 ---
-The 4 Pillars Context
+
+## The 4 Pillars of Object Oriented Programming
 
 | Pillar | One-liner |
 |--|--|
@@ -30,11 +31,10 @@ The 4 Pillars Context
 |Inheritance |Child reuses parent code   |
 |Polymorphism |One interface, many behaviors|   
 
+---
 
-## Why do we need OOP ? OR What is OOP ?
-
-Object-Oriented Programming (OOP) is a structured way to design and build software that is scalable, maintainable, and reusable.   
-Instead of writing procedural code, OOP organizes logic around objects that represent real-world entities.
+## Why do we need OOP ?
+We need OOP because it helps us build large, complex, maintainable, and reusable software systems by organizing code around real-world concepts.
 
 
 ### ✅ Key Reasons We Need OOP
