@@ -17,7 +17,8 @@
 - Use small, specific interfaces instead of large, general ones.
 
 ### D — Dependency Inversion Principle
-- Depend on abstractions, not concrete classes.
+- Instead of depending on concrete classes, depend on interfaces or abstract classes.
+- It makes your system flexible and testable.
 - High‑level modules shouldn’t depend on low‑level modules.
 - This is the foundation of dependency injection in .NET.
 
