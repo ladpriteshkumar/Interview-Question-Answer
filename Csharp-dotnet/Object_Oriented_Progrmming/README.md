@@ -14,11 +14,24 @@ An object is an instance of a class, which represents a real-world entity
 - **State:** It is represented by attributes of an object and reflects the properties of an object.
 - **Behavior:** It is represented by the methods of an object and also reflects how an object interacts with other objects.
 - **Identity:** It represents the unique reference of an object, which distinguishes it from other objects.
-- 
+  
 ---
 ## What is OOP ?
 Object-Oriented Programming (OOP) is a structured way to design and build software that is scalable, maintainable, and reusable.   
 Instead of writing procedural code, OOP organizes logic around objects that represent real-world entities.
+
+---
+
+## Why do we need OOP ?
+We need OOP because it helps us build large, complex, maintainable, and reusable software systems by organizing code around real-world concepts.
+
+**OOP is needed or Hepl** 
+1. To manage complexity
+2. To reuse code instead of rewriting it
+3. To make code easier to maintain
+4. To enforce structure and consistency
+5. To support scalability
+6. To model real-world entities naturally
 
 ---
 
@@ -32,10 +45,6 @@ Instead of writing procedural code, OOP organizes logic around objects that repr
 |Polymorphism |One interface, many behaviors|   
 
 ---
-
-## Why do we need OOP ?
-We need OOP because it helps us build large, complex, maintainable, and reusable software systems by organizing code around real-world concepts.
-
 
 ### ✅ Key Reasons We Need OOP
 #### Encapsulation 🛡️
