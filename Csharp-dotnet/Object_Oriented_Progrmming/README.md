@@ -163,7 +163,7 @@ class Program
 ```
 
   
-### Polymorphism 🔄  [Ref1](https://www.geeksforgeeks.org/c-sharp/polymorphism-in-c-sharp/)
+### Polymorphism   
 - "Polymorphism means one interface, many forms. It allows the same method or function to behave differently depending on the object calling it. It makes code flexible, reusable, and easy to extend without modifying existing logic."
 - Polymorphism means “many forms”, Polymorphism is the ability of a method or interface to take multiple forms.
 - In C#, polymorphism is achieved through method overriding (runtime polymorphism)  and method overloading (compile‑time polymorphism).
@@ -172,7 +172,7 @@ class Program
 - It lets you write flexible and extensible code where one action can be performed in multiple ways.
 - Makes systems extensible and flexible.
 - Example: A `shape` class with a   `Draw()` method, implemented differently by `Circle` and `Tringle` .
-
+ [Ref1](https://www.geeksforgeeks.org/c-sharp/polymorphism-in-c-sharp/)
 
 ```csharp
 // Base class
@@ -250,14 +250,7 @@ class Program
 It directly supports the Open/Closed Principle — code is open for extension (new subclasses) but closed for modification (existing code untouched).
 
 
-## 🔑 Quick Memory Hook
-- **Encapsulation** = *Hide the data* (engine internals).  
-- **Abstraction** = *Hide the complexity* (simple controls).  
-- **Inheritance** = *Reuse common traits* (all vehicles share basics).  
-- **Polymorphism** = *Same action, different behavior* (different ways to start).  
-
-
-### Conclusion
+# Conclusion
 "The four pillars of OOP are Encapsulation, Abstraction, Inheritance, and Polymorphism. 
 - Encapsulation protects data by controlling access,
 - Abstraction hides complexity by exposing only essential features,
