@@ -1,5 +1,21 @@
 ## [What is class, waht is Object](https://www.geeksforgeeks.org/c-sharp/class-and-object-in-c-sharp/)
 
+## What is Class ?
+A class is a user-defined reference type data type that encapsulates data and behavior.   
+It can contain fields, properties, methods, events, and constructors.   
+A class itself does not occupy memory until its objects are created.
+A class is a blueprint of an objects.
+
+## What is Object?
+An object is an instance of a class, which represents a real-world entity  
+
+**an object consists of:**
+- State: It is represented by attributes of an object and reflects the properties of an object.
+- Behavior: It is represented by the methods of an object and also reflects how an object interacts with other objects.
+- Identity: It represents the unique reference of an object, which distinguishes it from other objects.
+
+
+---
 The 4 Pillars Context
 
 | Pillar | One-liner |
