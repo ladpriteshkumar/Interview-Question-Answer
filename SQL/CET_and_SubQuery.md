@@ -38,3 +38,27 @@ SELECT *
 FROM SalesCTE
 WHERE TotalSales > 50000;
 ```
+
+### Example ( referenced multiple times )
+```
+WITH SalesCTE AS (
+    SELECT 
+        EmployeeID,
+        SUM(Amount) AS TotalSales
+    FROM Sales
+    GROUP BY EmployeeID
+)
+SELECT 
+    s.EmployeeID,
+    s.TotalSales,
+    -- First reference: filter
+    CASE 
+        WHEN s.TotalSales > 50000 THEN 'Top Performer'
+        ELSE 'Regular'
+    END AS PerformanceCategory,
+    -- Second reference: percentage of total
+    s.TotalSales * 1.0 / (SELECT SUM(TotalSales) FROM SalesCTE) AS PercentOfCompanySales
+FROM SalesCTE s
+ORDER BY s.TotalSales DESC;
+
+```
