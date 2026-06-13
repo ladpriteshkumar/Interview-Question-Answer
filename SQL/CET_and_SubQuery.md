@@ -62,3 +62,79 @@ FROM SalesCTE s
 ORDER BY s.TotalSales DESC;
 
 ```
+
+
+
+---
+
+### **Recursive CTE Example (Generate Numbers 1–10)**
+This example generates a sequence of numbers from **1 to 10** using a recursive CTE.
+**clean, real SQL example** showing how a **CTE supports recursion** — something subqueries cannot do.
+
+```sql
+WITH RECURSIVE Numbers AS (
+    -- Anchor member (starting point)
+    SELECT 1 AS n
+    
+    UNION ALL
+    
+    -- Recursive member (keeps adding 1)
+    SELECT n + 1
+    FROM Numbers
+    WHERE n < 10
+)
+SELECT *
+FROM Numbers;
+```
+
+---
+
+## 🧠 How it works
+
+### 1️⃣ **Anchor Query**
+Runs once.
+
+```sql
+SELECT 1 AS n
+```
+
+This creates the first row:  
+`n = 1`
+
+### 2️⃣ **Recursive Query**
+Runs repeatedly, each time using the previous result.
+
+```sql
+SELECT n + 1 FROM Numbers WHERE n < 10
+```
+
+This produces:
+
+2  
+3  
+4  
+…  
+10
+
+### 3️⃣ **Termination**
+The recursion stops when:
+
+```sql
+WHERE n < 10
+```
+
+is no longer true.
+
+---
+
+## 📌 Output
+
+| n |
+|---|
+| 1 |
+| 2 |
+| 3 |
+| … |
+| 10 |
+
+
