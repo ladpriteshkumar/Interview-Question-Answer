@@ -40,7 +40,7 @@ https://www.fullstack.cafe/
 
 > ### [How do you implement model validation in asp net core ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/ModelValidation.md)
 
-> ### [What are the different options we have to store environment variable ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/OptionsToStoreEnvironmentSpecificConfig.md)
+> ### [What are the different options we have to store environment specific information in your .net application ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/OptionsToStoreEnvironmentSpecificConfig.md)
 
 ### [Exception Handling](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/f6dbca3a14f946516efa1bb68a40203fde85c820/Interview-Questions/Exceptions%20handling.md)
 
