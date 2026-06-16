@@ -1,4 +1,4 @@
-## What are the different options we have to store environment variable
+## What are the different options we have to store environment specific information in your .net application
 
 **“In ASP.NET Core, we can store environment‑specific configuration using multiple configuration providers. The most common options are:”**
 
