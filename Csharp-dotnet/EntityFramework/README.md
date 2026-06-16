@@ -28,9 +28,9 @@ EF Core acts as a middle layer between your .NET application and your database:
 
 
 
-What is Dapper ? (ORM)
+## What is Dapper ? (ORM)
 
-What is EDM (Entity Data Model)
+## What is EDM (Entity Data Model)
 EDM helps separate your application logic from the physical database structure, which makes systems easier to query, maintain, and evolve.
 
 “EDM as a concept exists in EF Core (entities, relationships, mappings), but EF Core dropped the EDMX/designer XML workflow used by EF6. EF Core uses code‑first conventions, the Fluent API, runtime metadata, and scaffolding tools to represent and map the model.” 
