@@ -86,3 +86,13 @@ context.Blogs.Remove(blog); // Deleted
 context.Entry(blog).State = EntityState.Detached; // Detached
 ```
 
+
+## WHERE Do we use EDM State ?
+
+| **State** | **What it means** | **Where you use it** |
+| --- | --- | --- |
+| **Added** | New entity will be INSERTed | Creating new records via ``Add()`` or when attaching new graphs. |
+| **Unchanged** | Tracked, matches DB, no SQL | Read-only queries; default after load or after ``SaveChanges()``. |
+| **Modified** | Will be UPDATEd | Editing entities in a tracked context or marking detached DTOs as Modified for updates. |
+| **Deleted** | Will be DELETEd | Removing entities via ``Remove()`` or marking for deletion in business logic. |
+| **Detached** | Not tracked by context | Disconnected scenarios, DTOs, or when you explicitly detach to avoid tracking. |
