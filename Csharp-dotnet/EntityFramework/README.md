@@ -96,3 +96,7 @@ context.Entry(blog).State = EntityState.Detached; // Detached
 | **Modified** | Will be UPDATEd | Editing entities in a tracked context or marking detached DTOs as Modified for updates. |
 | **Deleted** | Will be DELETEd | Removing entities via ``Remove()`` or marking for deletion in business logic. |
 | **Detached** | Not tracked by context | Disconnected scenarios, DTOs, or when you explicitly detach to avoid tracking. |
+
+---
+
+## Explain how to use the Entity Framework Profiler tool to identify performance bottlenecks in Entity Framework applications.
