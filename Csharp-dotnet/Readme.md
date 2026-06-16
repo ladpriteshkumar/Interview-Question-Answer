@@ -40,6 +40,8 @@ https://www.fullstack.cafe/
 
 > ### [How do you implement model validation in asp net core ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/ModelValidation.md)
 
+> ### [What are the different options we have to store environment variable ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/OptionsToStoreEnvironmentSpecificConfig.md)
+
 ### [Exception Handling](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/f6dbca3a14f946516efa1bb68a40203fde85c820/Interview-Questions/Exceptions%20handling.md)
 
 ### [Difference Between Ref and Out Parameter](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/6e3c5e1fc36cba86a0afe31d6a929daab219dd5d/Interview-Questions/Difference%20Between%20Ref%20and%20Out%20Parameter.md)
