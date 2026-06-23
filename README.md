@@ -3,7 +3,7 @@
 
 > # [Angular](https://github.com/ladpriteshkumar/Interview-Question-Answer/tree/main/Angular)
 
-> # [SQL](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL/README.md)
+> # [SQL](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL)
 
 MCP Server (AI)
     
