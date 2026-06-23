@@ -1,9 +1,12 @@
+> ## `appsettings.json` vs `launchsettings.json`
+
+
 **The core difference:**  
 **`appsettings.json` stores your application’s configuration**, while **`launchsettings.json` stores settings used *only when launching the app from Visual Studio or `dotnet run`***.
 
 ---
 
-> ## AppSettings_VS_LaunchSettings.
+
 
 ## ✅ **Short Answer**
 | File | Purpose | Used At Runtime? | Environment‑specific? |
