@@ -31,3 +31,14 @@ Singleton  | Facade | Mediator
 
 ---
 
+# Repository Design Pattern
+
+The Repository pattern abstracts(hide) data access behind a clean interface.   
+it improves testability, decouples persistence, and centralizes CRUD operations.
+
+## When to use it
+**Decoupling:** when you want to isolate business logic from data access details. 
+
+**Testability:** when you need to mock data access for unit tests. 
+
+**Multiple data sources:** when the app may switch or combine storage technologies. 
