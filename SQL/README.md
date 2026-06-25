@@ -1,10 +1,14 @@
-> ### [`In` VS `Exist`](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL/In_V_Exists.md)
+> ## [`In` VS `Exist`](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL/In_V_Exists.md)
 
-> ### `SET NO COUNT NO`
+> ## `SET NO COUNT NO`
 `SET NOCOUNT ON` prevents SQL Server from returning the informational message like “(5 rows affected)” after each DML or SELECT statement; `SET NOCOUNT OFF` (the default) returns that message
 
+### Why you might use it
+**Performance and network reduction**  
+When a stored procedure executes many statements or loops, each “rows affected” message is an extra small result set sent to the client. Suppressing those messages reduces network traffic and client-side processing, which can yield measurable performance gains for high-volume or chatty procedures.
 
-> ### What `@@ROWCOUNT` does  `
+
+> ## What `@@ROWCOUNT` does  `
 `@@ROWCOUNT` returns the number of rows affected by the last statement and is still updated even when NOCOUNT is ON;
 
 ```SQL
