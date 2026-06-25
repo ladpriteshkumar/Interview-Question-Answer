@@ -1,5 +1,26 @@
 > ### [`In` VS `Exist`](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL/In_V_Exists.md)
 
+> ### `SET NO COUNT NO`
+`SET NOCOUNT ON` prevents SQL Server from returning the informational message like “(5 rows affected)” after each DML or SELECT statement; `SET NOCOUNT OFF` (the default) returns that message
+
+
+> ### What `@@ROWCOUNT` does  `
+`@@ROWCOUNT` returns the number of rows affected by the last statement and is still updated even when NOCOUNT is ON;
+
+```SQL
+CREATE PROCEDURE dbo.ExampleProc
+AS
+BEGIN
+  SET NOCOUNT ON;  -- suppress "(N rows affected)" messages
+  UPDATE dbo.MyTable SET Col = 1 WHERE SomeFlag = 0;
+  IF @@ROWCOUNT = 0
+    PRINT 'No rows updated';
+  ELSE
+    PRINT 'Rows updated: ' + CAST(@@ROWCOUNT AS varchar(10));
+END
+
+```
+
 > ### Difference Between Count(*) and Count(column) ?
 
 | Function | What it counts | Includes NULLs? | Example result |
