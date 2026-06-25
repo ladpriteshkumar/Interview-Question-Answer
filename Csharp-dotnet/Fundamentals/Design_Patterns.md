@@ -42,3 +42,6 @@ it improves testability, decouples persistence, and centralizes CRUD operations.
 **Testability:** when you need to mock data access for unit tests. 
 
 **Multiple data sources:** when the app may switch or combine storage technologies. 
+
+
+Decoupling persistence means isolating data‑storage concerns (SQL, ORM, files, APIs) behind an abstraction so business logic works with domain objects and contracts instead of database code; the Repository pattern is a common way to achieve that, improving testability, maintainability, and swap‑ability of storage.
