@@ -29,8 +29,8 @@ END
 
 | Function | What it counts | Includes NULLs? | Example result |
 | --- | --- | --- | --- |
-| **COUNT(*)** | Every row in the result set | **Yes** | If a table has 10 rows → returns **10** |
-| **COUNT(column)** | Only rows where *column is NOT NULL* | **No** | If column has 7 non‑NULL values → returns **7** |
+| **`COUNT(*)`** | Every row in the result set | **Yes** | If a table has 10 rows → returns **10** |
+| **`COUNT(column)`** | Only rows where *column is NOT NULL* | **No** | If column has 7 non‑NULL values → returns **7** |
 
 
 > ### Ranking Function Comparison Table
