@@ -1,3 +1,5 @@
+> ### [`In` VS `Exist`](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL/In_V_Exists.md)
+
 > ### Difference Between Count(*) and Count(column) ?
 
 | Function | What it counts | Includes NULLs? | Example result |
