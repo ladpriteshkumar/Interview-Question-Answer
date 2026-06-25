@@ -25,7 +25,21 @@ END
 
 ```
 
-> ### Difference Between Count(*) and Count(column) ?
+> ## `COALESCE` Function
+`COALESCE` takes two or more expressions and returns the first one that is not NULL. If all arguments are NULL, it returns NULL.
+
+### Common uses and examples
+- **Replace NULL with a default value:**
+
+```sql
+SELECT COALESCE(bonus, 0) AS bonus_or_zero FROM employees;
+```
+- **Choose the first available value across columns:**
+
+```sql
+SELECT COALESCE(phone_mobile, phone_home, phone_work) AS contact_phone FROM contacts;
+```
+> ## Difference Between Count(*) and Count(column) ?
 
 | Function | What it counts | Includes NULLs? | Example result |
 | --- | --- | --- | --- |
