@@ -1,3 +1,6 @@
+# Diference Between CTE and TempTable (#Table)
+
+
 # CTE (Common Table Expression) and a Subquery
 
 The primary difference between a CTE (Common Table Expression) and a Subquery is readability and reusability
