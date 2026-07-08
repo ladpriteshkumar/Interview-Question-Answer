@@ -58,3 +58,5 @@
 > - It’s required only in class components, not functional components.
 
 -------------------------------------------------------------------
+
+> ## [How Events are handled in React ?](Event.md)
