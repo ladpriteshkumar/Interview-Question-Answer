@@ -59,4 +59,4 @@
 
 -------------------------------------------------------------------
 
-> ## [How Events are handled in React ?](Event.md)
+> ## [How Events are handled in React ?](Events.md)
