@@ -46,6 +46,11 @@
 > 
 ---------------------------------------------------------------
 
+> ## What is component in React ?
+> A React component is a reusable, self-contained piece of UI that manages its own structure, logic, and behavior. It receives data through props, can maintain internal state, and returns JSX to describe what should appear on the screen.
+
+----------------------------------------------------------------
+
 > ## what is super() ? (class component only)
 > - super() calls the parent class constructor.
 > - super(props) makes this.props available.
