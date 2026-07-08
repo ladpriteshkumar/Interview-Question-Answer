@@ -1,4 +1,8 @@
 
+## What is React event handlers ?
+React event handlers are functions passed to JSX attributes that run on user interaction, powered by React’s SyntheticEvent system for consistency and performance.
+
+
 ## How Events are handled in React ?
 ## What is a Synthetic Event in React ?
 
