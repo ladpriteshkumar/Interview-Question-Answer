@@ -45,3 +45,11 @@
 > ## [Explain Component Lifecycle in React](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/React/Component_Lifecycle_In_React.md)
 > 
 ---------------------------------------------------------------
+
+> ## what is super() ? (class component only)
+> - super() calls the parent class constructor.
+> - super(props) makes this.props available.
+> - You must call super() before using this in a constructor.
+> - It’s required only in class components, not functional components.
+
+-------------------------------------------------------------------
