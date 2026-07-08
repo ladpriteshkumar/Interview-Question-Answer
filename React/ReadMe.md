@@ -23,6 +23,13 @@
 > Reconciliation is React’s process of comparing the new Virtual DOM with the previous Virtual DOM and updating the real DOM with only the minimal necessary changes.
 
 ------------------------------------------------------------
+
+> ## how keys affect reconciliation
+> Keys give React a stable identity for each element in a list, allowing it to match old and new elements during reconciliation.   
+> Keys tell React which items are which, enabling efficient reconciliation, correct DOM updates, and stable component state.
+
+------------------------------------------------------------
+
 > ## Difference Between Virtual DOM and Real DOM
 >
 >|        | Real DOM              | Virtual DOM                 |
