@@ -7,9 +7,10 @@
 
 > ## [Difference between React and Angular](Difference_between_React_and_Angular.md)
 
-> ## What is DOM (Document Object Model)
+> ## [What is DOM (Document Object Model)]((Virtual_DOM_In_React.md))
 > The DOM is a tree-like structure that represents your HTML page.   
-> Ref : [geeksforgeeks](https://www.geeksforgeeks.org/javascript/dom-document-object-model/)
+
+> ## [Difference Between Virtual DOM and Real DOM](Virtual_DOM_In_React.md)
 
 -------------------------------------------------------
 > ## Fearures of React 
@@ -38,7 +39,7 @@
 
 ------------------------------------------------------------
 
-> ## [Difference Between Virtual DOM and Real DOM](Virtual_DOM_In_React.md)
+
 
 
 > ## [Explain Component Lifecycle in React](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/React/Component_Lifecycle_In_React.md)
