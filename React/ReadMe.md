@@ -4,8 +4,6 @@
 
 -------------------------------------------------------
 > ## Why React ?
-
--------------------------------------------------------
 > ## [Difference between React and Angular](Difference_between_React_and_Angular.md)
 -------------------------------------------------------
 > ## Fearures of React 
