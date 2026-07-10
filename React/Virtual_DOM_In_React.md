@@ -1,5 +1,8 @@
+> ## [What is DOM (Document Object Model)
+> The DOM is a tree-like structure that represents your HTML page.   
+> Ref : [geeksforgeeks](https://www.geeksforgeeks.org/javascript/dom-document-object-model/)>
 
-> ## Difference Between Virtual DOM and Real DOM
+>## Difference Between Virtual DOM and Real DOM
 >
 >|        | Real DOM              | Virtual DOM                 |
 >|---------------|----------------------|-----------------------------|
