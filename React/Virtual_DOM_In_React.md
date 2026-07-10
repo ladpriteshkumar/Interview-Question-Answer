@@ -14,3 +14,42 @@
 >
 > [Rererence](https://www.geeksforgeeks.org/difference-between-virtual-dom-and-real-dom/)
 -----------------------------------------------------------
+
+> ## how do you render react component to the DOM ?
+You render a React component to the **DOM** using the `ReactDOM.createRoot()` API (React 18+) or the older `ReactDOM.render()` (React 17 and earlier).
+
+---
+
+## **React 18+ (current standard)**  
+This is the modern, recommended way.
+
+### **Step 1: Have a root DOM element**
+```html
+<div id="root"></div>
+```
+
+### **Step 2: Render your React component**
+```jsx
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
+```
+
+**What’s happening:**  
+- `createRoot()` creates a React root.  
+- `.render(<App />)` tells React to mount your component into the real DOM.
+
+---
+
+##  Why React needs this step
+React doesn’t automatically know *where* to put your UI.  
+You choose a DOM node (usually `#root`) and tell React:
+
+> “Render my component tree here.”
+
+React then takes over that DOM node and manages everything inside it.
+
+---
