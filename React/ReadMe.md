@@ -6,6 +6,11 @@
 > ## Why React ?
 
 > ## [Difference between React and Angular](Difference_between_React_and_Angular.md)
+
+> ## What is DOM (Document Object Model)
+> The DOM is a tree-like structure that represents your HTML page.
+> Ref : [geeksforgeeks](https://www.geeksforgeeks.org/javascript/dom-document-object-model/)
+
 -------------------------------------------------------
 > ## Fearures of React 
 >  #### The key features of React are:
