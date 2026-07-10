@@ -39,7 +39,11 @@
 
 ------------------------------------------------------------
 
+## 24. How is a node of a DOM tree updated in an application built in React? ##
+When the state or props of a component change in React, a new virtual DOM tree is created, which is compared to the previous tree using a diffing algorithm. React identifies the minimal set of changes required to update the actual DOM and uses reconciliation to update only the corresponding nodes that have changed. This process minimizes the number of actual DOM operations that need to be performed.
 
+## 25. What is a diffing algorithm in React?
+A diffing algorithm in React is a process that compares the current virtual DOM tree with the previous one and identifies the minimal set of changes required to update the actual DOM. This is done by checking the type, props, and children of each node in the tree and updating only those specific parts of the DOM that need to be changed, rather than updating the entire tree.
 
 
 > ## [Explain Component Lifecycle in React](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/React/Component_Lifecycle_In_React.md)
