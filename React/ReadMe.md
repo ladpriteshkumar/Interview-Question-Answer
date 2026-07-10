@@ -3,7 +3,9 @@
 >  It allows developers to create reusable UI components.   
 
 -------------------------------------------------------
+> ## Why React ?
 
+-------------------------------------------------------
 > ## Fearures of React 
 >  #### The key features of React are:
 >  * **Component-based architecture:** A Component is the smallest unit in a React application. Anything that is to be rendered on the browser can be rendered through components. Components help in maintainability and re-usability.
