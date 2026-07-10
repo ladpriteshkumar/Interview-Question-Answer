@@ -1,5 +1,5 @@
 > ## [What is DOM (Document Object Model)
-> The DOM is a tree-like structure that represents the content of a `HTML` Document.
+> The DOM is a tree-like structure that represents the content of a `HTML` Document.   
 > The DOM Tree is created when the `HTML` document is parsed ny the browser.   
 > Ref : [geeksforgeeks](https://www.geeksforgeeks.org/javascript/dom-document-object-model/)>
 
