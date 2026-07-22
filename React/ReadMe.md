@@ -4,6 +4,7 @@
 
 -------------------------------------------------------
 > ## Why React ?
+> I use React because it provides reusable components, fast UI updates via the Virtual DOM, excellent performance, SEO‑friendly options, and a huge ecosystem that makes building modern, scalable applications easier.
 
 > ## [Difference between React and Angular](Difference_between_React_and_Angular.md)
 
