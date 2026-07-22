@@ -9,7 +9,6 @@ https://www.fullstack.cafe/
 
 > ## [.NET Fundanentials Question Answer](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/README.md)
 
-
 > ### [Difference between Stack vs Heap ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Fundamentals/Difference%20between%20Stack%20vs%20Heap.md)
 
 > ### [Data Type in C#](DataType/README.md) ? 
@@ -57,6 +56,8 @@ https://www.fullstack.cafe/
 ### [Difference between WEB API and REST API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/RESTAPI.md)
 
 ### [What is top-level statement?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/DOTNETCORE/Top-level-statement.md)
+
+### [Explain Localization and Globalization in .NET core](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/Globalization.md)
 ---
 
 How JWT Works
