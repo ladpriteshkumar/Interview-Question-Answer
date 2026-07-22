@@ -77,6 +77,9 @@ A diffing algorithm in React is a process that compares the current virtual DOM 
 
 ----------------------------------------------------------------
 
+> ## What is JSX and how does it work?
+> JSX is a syntax extension ( that looks like HTML.) for JavaScript that lets you write HTML‑like markup directly inside your code, and it works by compiling that markup into plain JavaScript function calls (usually `React.createElement`)
+
 > ## what is super() ? (class component only)
 > - super() calls the parent class constructor.
 > - super(props) makes this.props available.
