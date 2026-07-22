@@ -5,7 +5,7 @@
 
 > # [SQL](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL)
 
->> # [React](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/React) 
+> # [React](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/React) 
 
 MCP Server (AI)
     
