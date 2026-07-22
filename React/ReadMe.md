@@ -89,3 +89,6 @@ A diffing algorithm in React is a process that compares the current virtual DOM 
 -------------------------------------------------------------------
 
 > ## [How Events are handled in React ?](Events.md)
+
+>## What is the difference between controlled and uncontrolled components?
+>A controlled component stores form input value in React state - React is the source of truth. An uncontrolled component stores value in the DOM itself, accessed via a `ref`. Controlled components are easier to validate and synchronize; uncontrolled components are simpler for file inputs or when integrating with non-React code.
