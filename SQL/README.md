@@ -1,5 +1,7 @@
 > ## [`In` VS `Exist`](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL/In_V_Exists.md)
 
+> ## [Materialized View OR Indexed View](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/SQL/materialized_OR_Indexed_View.md)
+
 > ## `SET NO COUNT NO`
 `SET NOCOUNT ON` prevents SQL Server from returning the informational message like “(5 rows affected)” after each DML or SELECT statement; `SET NOCOUNT OFF` (the default) returns that message
 
