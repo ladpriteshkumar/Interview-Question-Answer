@@ -42,7 +42,7 @@ https://www.fullstack.cafe/
 
 > ### [What are the different options we have to store environment specific information in your .net application ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/OptionsToStoreEnvironmentSpecificConfig.md)
 
-> ### [`appsettings.json` vs `launchsettings.json`](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/AppSettings_VS_LaunchSettings.md)
+> ### [`appsettings.json` vs `launchsettings.json` in .net core applications](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/AppSettings_VS_LaunchSettings.md)
  
 > ### [Exception Handling](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/f6dbca3a14f946516efa1bb68a40203fde85c820/Interview-Questions/Exceptions%20handling.md)
 
