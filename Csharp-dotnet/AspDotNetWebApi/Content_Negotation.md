@@ -1,3 +1,4 @@
+[Ref](https://www.c-sharpcorner.com/article/content-negotiation-in-net-core-web-api/)
 # Content Negotation
 Content Negotiation is a REST mechanism that allows a client and server to agree on the best format for the data being exchanged.
 
