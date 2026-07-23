@@ -45,19 +45,21 @@ https://www.fullstack.cafe/
  
 > ### [Exception Handling](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/f6dbca3a14f946516efa1bb68a40203fde85c820/Interview-Questions/Exceptions%20handling.md)
 
-### [Difference Between Ref and Out Parameter](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/6e3c5e1fc36cba86a0afe31d6a929daab219dd5d/Interview-Questions/Difference%20Between%20Ref%20and%20Out%20Parameter.md)
+> ### [Difference Between Ref and Out Parameter](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/6e3c5e1fc36cba86a0afe31d6a929daab219dd5d/Interview-Questions/Difference%20Between%20Ref%20and%20Out%20Parameter.md)
 
-### [Delegates in C#](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/b81ef7dfc048f9d326747a566c64bd7b8da76259/Interview-Questions/Delegates.md)
+> ### [Delegates in C#](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/b81ef7dfc048f9d326747a566c64bd7b8da76259/Interview-Questions/Delegates.md)
 
-### [Events](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/ff1214a6b356f40d633f9a7c4d630e7f48fe8328/Interview-Questions/events.md)
+> ### [Events](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/ff1214a6b356f40d633f9a7c4d630e7f48fe8328/Interview-Questions/events.md)
 
-### [Whats the difference between Abstract class and interface ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/332a9efa170892b862f7b97bb8d18f62313863d7/Interview-Questions/Abstract%20class%20and%20interface.md)
+> ### [Whats the difference between Abstract class and interface ?](https://github.com/ladpriteshkumar/Learn-C-Sharp-Dot-Net-Core/blob/332a9efa170892b862f7b97bb8d18f62313863d7/Interview-Questions/Abstract%20class%20and%20interface.md)
 
-### [Difference between WEB API and REST API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/RESTAPI.md)
+> ### [Difference between WEB API and REST API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/RESTAPI.md)
 
-### [What is top-level statement?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/DOTNETCORE/Top-level-statement.md)
+> ### [What is top-level statement?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/DOTNETCORE/Top-level-statement.md)
 
-### [Explain Localization and Globalization in .NET core](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/Globalization.md)
+> ### [Explain Localization and Globalization in .NET core](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/Globalization.md)
+
+> ### [Content Negotation in ASP.NET Core WEB API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/Content_Negotation.md)
 ---
 
 How JWT Works
