@@ -8,7 +8,8 @@
 > # [React](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/React) 
 
 
-MCP Server (AI)
+MCP Server (AI)   
+Agentic AI   
 [NotebookLM](https://notebooklm.google.com/)     
     
 
