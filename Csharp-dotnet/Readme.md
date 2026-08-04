@@ -62,7 +62,10 @@ https://www.fullstack.cafe/
 > ### [Content Negotation in ASP.NET Core WEB API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/Content_Negotation.md)
 
 ## Entity Framework
-> ### `IEnumerable` Vs `IQueryable` 
+> ### `IEnumerable` Vs `IQueryable`
+
+> ## Explain Architecture you worked in .NET application ?
+> “I’ve worked with multiple .NET architectures depending on project needs. For traditional enterprise apps, I’ve used Layered/N‑Tier architecture. For more scalable and maintainable systems, I’ve implemented Clean Architecture and Onion Architecture, which help isolate domain logic from infrastructure. I’ve also worked with Vertical Slice Architecture for feature‑based organization and Microservices for distributed systems. I choose the architecture based on complexity, scalability requirements, and team structure.”
 ---
 
 How JWT Works
