@@ -66,9 +66,16 @@ https://www.fullstack.cafe/
 
 > ## Explain Architecture you worked in .NET application ?
 > “I’ve worked with multiple .NET architectures depending on project needs. For traditional enterprise apps, I’ve used Layered/N‑Tier architecture. For more scalable and maintainable systems, I’ve implemented Clean Architecture and Onion Architecture, which help isolate domain logic from infrastructure. I’ve also worked with Vertical Slice Architecture for feature‑based organization and Microservices for distributed systems. I choose the architecture based on complexity, scalability requirements, and team structure.”
+
+> ### Major Keys (Claims) in a Token (JWT)
+> “A token, especially a JWT, contains major keys called claims. These include standard claims like issuer, audience, expiration, issued‑at, and subject. It also includes identity claims such as email, name, and role. We can also add custom claims like department or permissions to support application‑specific authorization.”
 ---
 
 How JWT Works
+
+How do you Authorized request
+
+Authentication and Authorization using Token
 
 Authentication and Authorization (EntraId , LDAP)
 
