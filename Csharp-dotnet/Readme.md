@@ -60,6 +60,9 @@ https://www.fullstack.cafe/
 > ### [Explain Localization and Globalization in .NET core](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/DotNetCore/Globalization.md)
 
 > ### [Content Negotation in ASP.NET Core WEB API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/Content_Negotation.md)
+
+## Entity Framework
+> ### `IEnumerable` Vs `IQueryable` 
 ---
 
 How JWT Works
