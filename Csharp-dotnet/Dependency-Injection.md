@@ -8,8 +8,6 @@ It promotes loose coupling, making code more modular, testable, and maintainable
 When we say **“external source”** in Dependency Injection, we simply mean **anything outside the class that needs the dependency**.  
 The class does *not* create the dependency — something else provides it.
 
-Here’s the clean, structured breakdown you can use in interviews.
-
 ---
 
 # **What Counts as an External Source in DI?**
