@@ -1,5 +1,8 @@
 > ## [What is React ?](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/React/What_is_React.md)
 
+> ## What is component in React ?
+> A React component is a reusable, self-contained piece of UI that manages its own structure, logic, and behavior. It receives data through props, can maintain internal state, and returns JSX to describe what should appear on the screen.
+
 > ## [Difference between React and Angular](Difference_between_React_and_Angular.md)
 
 > ## [What is DOM (Document Object Model)](Virtual_DOM_In_React.md)
@@ -39,8 +42,7 @@ A diffing algorithm in React is a process that compares the current virtual DOM 
 > 
 ---------------------------------------------------------------
 
-> ## What is component in React ?
-> A React component is a reusable, self-contained piece of UI that manages its own structure, logic, and behavior. It receives data through props, can maintain internal state, and returns JSX to describe what should appear on the screen.
+
 
 ----------------------------------------------------------------
 
