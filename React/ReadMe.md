@@ -7,6 +7,7 @@
 
 > ## [Difference Between Virtual DOM and Real DOM](Virtual_DOM_In_React.md)
 
+> ## [What is React Fiber and how does it differ from the old reconciliation algorithm?](https://drive.google.com/file/d/1WEWzNMIAI7YKH1KbikJVza6nOhfOqqhk/view)
 > ## [Reconciliation vs React Fiber](https://drive.google.com/file/d/1YIv47ZDsAo9GulNTbiNOvHIqiz4OWcmE/view)
 ------------------------------------------------------------
 
