@@ -61,6 +61,7 @@ https://www.fullstack.cafe/
 
 > ### [Content Negotation in ASP.NET Core WEB API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/Content_Negotation.md)
 
+> ### [Explain Dependency Injection](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Dependency-Injection.md)
 ## Entity Framework
 > ### `IEnumerable` Vs `IQueryable`
 
