@@ -62,6 +62,27 @@ https://www.fullstack.cafe/
 > ### [Content Negotation in ASP.NET Core WEB API](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/AspDotNetWebApi/Content_Negotation.md)
 
 > ### [Explain Dependency Injection](https://github.com/ladpriteshkumar/Interview-Question-Answer/blob/main/Csharp-dotnet/Dependency-Injection.md)
+
+## .NET Core (.NET 5,6..10)
+
+> ### Explain Middleware , Explain Custome Middleware
+
+> ### Semantic Search in .NET
+
+> ### Different place to manage keys
+> - keyvault
+> - environmental variable
+
+> ### Explain Clean Architecture in .NET
+> ### What is Azure Function, Explain different triggers types in Azure function
+> ### Explain Azure service Bus
+> ### publisher and subscriber where do you use.(Azure service bus)
+
+
+
+>
+> 
+   
 ## Entity Framework
 > ### `IEnumerable` Vs `IQueryable`
 
