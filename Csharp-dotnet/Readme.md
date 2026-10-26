@@ -77,11 +77,7 @@ https://www.fullstack.cafe/
 > ### What is Azure Function, Explain different triggers types in Azure function
 > ### Explain Azure service Bus
 > ### publisher and subscriber where do you use.(Azure service bus)
-
-
-
->
-> 
+> ### explain Kafka
    
 ## Entity Framework
 > ### `IEnumerable` Vs `IQueryable`
